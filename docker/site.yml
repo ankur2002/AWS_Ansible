@@ -1,0 +1,9 @@
+---
+ - name: testing hosts
+
+   hosts: docker[3]
+#   tags: test
+
+   roles:
+    - docker_install
+    - docker_image_create

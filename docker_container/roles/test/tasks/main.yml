@@ -1,0 +1,13 @@
+---
+    # - name: Copy over the install script
+    #   file: src=yinst_buildr_stage.txt   dest=/tmp/yinst_buildr_stage.txt
+     
+     - name: yinst update
+       shell: yinst-pw yinst self-update
+
+     #- name: Install the kernel-devel package
+     #  yum: name=kernel-devel.x86_64 state=present
+
+     #- name: Run the yinst script
+     #  shell: yinst-pw yinst install -file /etc/ansible/playbooks/docker_container/roles/test/files/yinst_buildr_stage.txt
+

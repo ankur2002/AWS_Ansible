@@ -1,0 +1,21 @@
+---
+  - name: Install the epel repo
+    command: wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+
+  - name: Install the rpm
+    yum: name=epel-release-latest-6.noarch.rpm state=present
+
+  - name: install docker package
+    yum: pkg={{item}} state=present
+    sudo: yes
+    with_items:
+     - docker-io
+     - lxc
+
+  - name: Update device-mapper
+    yum: name=device-mapper state=latest
+
+  - name: enable docker service
+    service: name=docker enabled=yes state=started
+    sudo: yes
+

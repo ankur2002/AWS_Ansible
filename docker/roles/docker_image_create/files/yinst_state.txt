@@ -1,0 +1,1657 @@
+yinst.timestamp: 1456945528
+yinst.command: /usr/local/bin/yinst save -file /home/abhatia/yinst_state.txt
+yinst.hostname: prod-buildr.corpapps.corp.gq1.yahoo.com
+yinst.user: abhatia
+yinst.root: /home/y
+yinst.osrelease: rhel 6Server
+yinst.yinst_version: 7.184.6448
+yinst.package: akamai_status-1.9.1(1306178501)|1428266682|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ats-5.0.1_73(1418756782)|1431678988|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ats_generic_config-0.3.76(1413579268)|1431678983|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ats_yahoo_connection-5.0.5(1431722973)|1441313185|tortuga@w-01.pogo.mail.corp.gq1.yahoo.com
+yinst.package: bcookie-1.12.0(1407189399)|1427096012|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: browscap-2014.11.17(1416247425)|1435061310|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: buildr2-10.0.42(1455836964)|1455838610|tortuga@w-07.mail.pogo.corp.bf1.yahoo.com
+yinst.package: buildrapi-10.0.3(1435579107)|1436356459|tortuga@pw-14.infra.corp.gq1.yahoo.com
+yinst.package: bycookieauthdso-2.8.8.3(1378849833)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: bycookieauthkey-1.0.0(1276294772)|1428266647|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ccmp_pool-1.1.0(1407190180)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ports/cronolog-1.6.2-6.2(1352445416)|1428266683|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: daemontools_y-0.78.42(1403667641)|1436531421|tortuga@pw-10.infra.corp.gq1.yahoo.com
+yinst.package: ports/libyaml-0.1.4-2(1354014206)|1431678983|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: local_perl_compat-3.0.0(1330030487)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: mdbm-4.2.2.168(1376524962)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: mdbm_ylock_plugin-4.2.2.168(1376524962)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: mysql_client-5.6.22.2(1423503170)|1431678984|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: mysql_config_multi-1.2.31(1417715707)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: mysql_shared-5.6.22.2(1423503170)|1431678986|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: mysql_user-0.7(1235108946)|1428266673|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: oauth_common_group-1.0.0(1230147721)|1428266648|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ostauth-1.8.242.299451(1371590103)|1435061318|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: perl-5.14.2_05(1358458899)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ypan/perl-AnyEvent-7.08_11(1421881106)|1436531421|tortuga@pw-10.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Config-General-2.56_06(1418913370)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Digest-1.17_07(1346983770)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Digest-HMAC-1.03_78(1386861630)|1431678987|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Digest-MD5-2.52_14(1366304905)|1428266650|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Digest-SHA-5.84_73(1386861651)|1436531421|tortuga@pw-10.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Encode-Locale-1.03_189(1398267105)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-File-Listing-6.04_22(1398267402)|1431678983|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-File-Path-2.0800_05(1335196695)|1428266666|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-File-Slurp-9999.19_07(1343691325)|1428266662|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Filesys-Df-0.92_08(1366912987)|1428266648|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-HTML-Parser-3.71_01(1377120668)|1431678987|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-HTML-Tagset-3.20_10(1366913061)|1428266652|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-HTTP-Cookies-6.01_20(1398267889)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-HTTP-Daemon-6.01_20(1398267925)|1431678984|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-HTTP-Date-6.02_183(1398267949)|1431678989|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-HTTP-Message-6.06_186(1398267994)|1431678987|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-HTTP-Negotiate-6.01_23(1398268014)|1431678986|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-IO-HTML-1.00_183(1398268183)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-IO-Socket-SSL-1.981_179(1398268256)|1431678988|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-IO-Socket-Socks-0.62_04(1343692707)|1428266687|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-JSON-2.90_148(1394637649)|1436531420|tortuga@pw-10.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-JSON-XS-2.34_11(1395803632)|1436531421|tortuga@pw-10.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-LWP-MediaTypes-6.02_186(1398268612)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-LWP-Protocol-https-6.06_181(1400181614)|1431678989|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-LWP-Protocol-socks-1.6_03(1343692735)|1428266662|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Log-Log4perl-1.46_08(1421881529)|1431678987|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-MIME-Base64-3.13_10(1366305138)|1428266673|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Mozilla-CA-20130114_178(1398269508)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-NTLM-1.09_180(1398269938)|1431678989|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Net-HTTP-6.07_183(1406325497)|1431678983|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Net-SSLeay-1.58_181(1398269914)|1431678987|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Object-Event-1.23_03(1344320859)|1428266685|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Pod-Parser-1.61_04(1383356996)|1428266669|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Pod-Perldoc-3.17_09(1346984294)|1428266682|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Sys-Hostname-FQDN-0.11_02(1366914057)|1428266683|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-TermReadKey-2.32_01(1413941537)|1436531420|tortuga@pw-10.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-URI-1.64_01(1405545942)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-Unix-Syslog-1.1_05(1366914629)|1428266663|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-WWW-Curl-4.17_11(1414017831)|1431678988|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-WWW-RobotRules-6.02_21(1398271720)|1431678989|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-XML-LibXML-2.0014_02(1366914817)|1428266680|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-XML-NamespaceSupport-1.11_166(1398271863)|1431678987|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-XML-Parser-2.41_07(1346989738)|1428266668|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-XML-SAX-0.99_03(1362002445)|1428266686|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-XML-SAX-Base-1.08_163(1398271911)|1431678983|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-YAML-0.97_22(1414183122)|1431678986|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-YAML-LibYAML-0.41_03(1402782978)|1436531421|tortuga@pw-10.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-common-sense-3.72_124(1397834043)|1436531421|tortuga@pw-10.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-libnet-1.25_01(1392390505)|1431678988|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-libwww-perl-6.08_01(1406329404)|1431678989|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ypan/perl-podlators-2.4.2_07(1346984984)|1428266666|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: perl_AnyEvent_Curl_Multi-1.0.1(1300913979)|1428266650|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: perl_MDBM_File-4.2.2.168(1376524962)|1431678983|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: perl_yax-3.1.5(1356558143)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: perl_ynetdblib-1.13.16(1356560650)|1436531415|tortuga@pw-10.infra.corp.gq1.yahoo.com
+yinst.package: perl_ysecure-2.5.6(1418195781)|1455838617|tortuga@w-07.mail.pogo.corp.bf1.yahoo.com
+yinst.package: perlbase-3.0.1_01(1330030486)|1428266680|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: php_phpmailer-1.73_0(1121204646)|1428266672|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ports/protobuf-2.4.1-1_02(1351855505)|1427096006|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ports/protobuf-c-0.15-1_04(1352294513)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: readlog-1.15.3(1314115134)|1431678983|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: thoth-2.13.10(1405632972)|1435061317|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: webctl-2.2.23(1384195789)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: wslogin_consumerkey_keys_prod-3.0(1332664481)|1435061318|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: yahoo_multimode-3.0.4(1343756372)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yahoo_p3p-1.4.3(1348606433)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yahoo_wscl-2.4.51(1377679045)|1435061318|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: yahoo_wslcommon-2.4.51(1377679045)|1435061317|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: yapache-2.2.26_6(1401976472)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_favicon-1.5.0(1378353927)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_alias-2.2.26_6(1401976299)|1427096006|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_authz_host-2.2.26_6(1401976327)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_cgi-2.2.26_8(1411431235)|1441313194|tortuga@w-01.pogo.mail.corp.gq1.yahoo.com
+yinst.package: yapache_mod_deflate-2.2.26_6(1401976341)|1427096012|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_dir-2.2.26_6(1401976362)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_env-2.2.26_6(1401976370)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_expires-2.2.26_6(1401976374)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_headers-2.2.26_6(1401976378)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_info-2.2.26_6(1401976386)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_mime-2.2.26_6(1401976405)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_mime_data-2.3.1(1373926366)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_rewrite-2.2.26_6(1401976413)|1431678965|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: yapache_mod_status-2.2.26_6(1401976421)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_audit-1.1.2(1355159487)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_connection-1.10.4(1366125779)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_cookie_ao-1.2.4(1355446578)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_cookiedata-2.11.1(1418235770)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_deflate-1.1.3(1355160115)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_hostname-1.3.4(1402074821)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_log-2.10.1(1391195419)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_redirect_checker-1.1.2(1355160227)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_remote_ip-1.13.3(1407351208)|1427096009|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_remove_server_header-1.1.4(1355160287)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_setcookie_date-1.0.9(1355160412)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_wipe-1.1.2(1355160325)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_yahoo_yapache-1.4.9(1379349193)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapache_mod_ysar-2.2.79(1375735511)|1441313194|tortuga@w-01.pogo.mail.corp.gq1.yahoo.com
+yinst.package: yapr-1.3.8_8(1354917885)|1427096012|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yapr_util-1.3.9_8(1354919253)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yca-0.13.6(1406074934)|1431678987|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: yca_cert-1.2.15(1399914512)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: yca_client_certs-0.21.14(1417316303)|1431678986|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: yca_data-0.3(1191431496)|1428266664|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yca_wsca_common-0.14.4(1367314760)|1428266666|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ycfl-1.0.40.22(1353534743)|1428266649|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yck-1.28.0(1407188342)|1427096009|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yck_data-1.18.9(1349383973)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yck_data_group-1.0.1(1203726266)|1427095998|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yconfig-5.0.49(1395271727)|1435061316|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: yconfig_lite-1.3.1.42(1354064320)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ycore-1.37.0(1417658441)|1427096009|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ycore++-6.1.0(1399412360)|1435061315|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: ycore_ipv6-1.2.39(1360615448)|1427096012|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ycron-1.11.5(1341866302)|1427096006|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yhdrs-1.19.4(1398964248)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: yhdrs_data-1.4.4(1352159344)|1428266668|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yicu-6.51.2.0_5(1405971520)|1435061315|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: yicu_data-6.51.2.0_4(1380059134)|1435061316|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: yiv-0.2.268(1385947846)|1427096004|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ykeydb-2.0.3.171(1414643938)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ykeykey-2.2.0.218(1414692829)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ykeykeyshared-2.3.1.286(1414587824)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ylock-1.4.1.22(1341945205)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ylock_kern-1.100.0.20(1344282636)|1427096006|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ylq-1.0.17.22(1367458047)|1428266680|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ymonsb-2.10.1.19(1428341950)|1443559283|tortuga@w-02.pogo.corp.gq1.yahoo.com
+yinst.package: ymonsb_perl-1.9.18_31(1354718503)|1428266668|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_agent-0.4.27_5(1378351715)|1428266668|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_agent_data-20100923.02(1285285211)|1428266680|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_check_host_life-0.0.9.15826.23(1380815203)|1428266646|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_check_http-2.0.0.16568.0(1386889694)|1428266684|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_check_system-1.0.18.16855.24(1391059974)|1428266669|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_check_yapache-3.0.0.16577.0(1386903881)|1428266687|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_check_ymonsb2-0.5.5(1355150367)|1428266647|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_collector_client_perl-2.0.20_9(1370623773)|1428266681|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_errors_lib_perl-2.0.0.16433.0(1386112358)|1428266679|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_http_client_perl-0.2.5.14804.39(1369292750)|1428266668|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yms_syslog_trap-20130603.01_54(1377044054)|1428266647|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ynbr-1.0.18.18(1353533974)|1428266651|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ynet_db_yahoo-1.20.84(1424942463)|1431678983|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: ynetdblib-1.15.2(1416261360)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yose-4.0.27(1384306855)|1435061317|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: yphp-5.3.27_2(1391020519)|1436339681|bindump@wifi-20-78.eglbp.corp.yahoo.com
+yinst.package: yphp_apc-3.1.11_1(1369166259)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: yphp_cli-5.3.27_2(1391020537)|1436339681|bindump@wifi-20-78.eglbp.corp.yahoo.com
+yinst.package: yphp_cookie-4.15.4(1376337806)|1435061315|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: yphp_curl-5.3.27_1(1374943579)|1436339682|bindump@wifi-20-78.eglbp.corp.yahoo.com
+yinst.package: yphp_ftp-5.3.27_1(1374943597)|1436339682|bindump@wifi-20-78.eglbp.corp.yahoo.com
+yinst.package: yphp_json-1.2.1_13(1355899135)|1428266683|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yphp_mysqlnd-5.3.27_1(1374942753)|1436339681|bindump@wifi-20-78.eglbp.corp.yahoo.com
+yinst.package: yphp_ostauth-1.8.242.293538(1371586131)|1435061318|tortuga@w-03.pogo.corp.gq1.yahoo.com
+yinst.package: yphp_pdo-5.3.27_1(1374943648)|1436339675|bindump@wifi-20-78.eglbp.corp.yahoo.com
+yinst.package: yphp_phpinfo-1.4.3(1349224821)|1428266668|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yphp_session-5.3.27_1(1374943665)|1436339681|bindump@wifi-20-78.eglbp.corp.yahoo.com
+yinst.package: yphp_yca-0.4.1(1356074293)|1428266651|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yphp_yiv-2.3.2(1355789475)|1428266647|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: yphp_ysecure-2.12.1(1398584730)|1431678982|tortuga@pw-05.infra.corp.gq1.yahoo.com
+yinst.package: yrobot-3.0.0.77(1414654265)|1427096003|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: yrobot_conf-3.0.0.77(1414654265)|1427096010|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ysar-1.39.90(1421866276)|1441313194|tortuga@w-01.pogo.mail.corp.gq1.yahoo.com
+yinst.package: ysecure-2.14.1(1401491246)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ysniff-1.22.12.2(1422485400)|1443559283|tortuga@w-02.pogo.corp.gq1.yahoo.com
+yinst.package: ystatus-1.2.5(1349107136)|1428266666|tortuga@pw-media-03.infra.corp.gq1.yahoo.com
+yinst.package: ysys-2.40.2(1406908602)|1427096005|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ysys_utils-2.40.2(1406908602)|1427096009|tortuga@w-04.pogo.corp.gq1.yahoo.com
+yinst.package: ysysctl-2.2.3(1282945342)|1431678985|tortuga@pw-05.infra.corp.gq1.yahoo.com
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/akamai_status	2016-02-18 23:36:59.012001518 +0000
+@@ -0,0 +1 @@
++autostart off
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ats	2016-02-18 23:36:59.012001518 +0000
+@@ -0,0 +1 @@
++autostart on
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ats_generic_config	2016-02-18 23:36:59.012001518 +0000
+@@ -0,0 +1,6 @@
++ats_override_mem_checks 1
++ram_cache 0
++ram_cache_offset 2000000000
++server_ports 443:ssl
++ssl_cert_filename server.crt
++ssl_private_key_filename server.key
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/buildr2	2016-02-18 23:36:59.012001518 +0000
+@@ -0,0 +1,52 @@
++ALL_USERS_FILENAME all_users.csv
++APP_INBOUND_PATH /home/y/share/buildr/app/data/inbound/
++APP_OUTBOUND_PATH /home/y/share/buildr/app/data/outbound/
++AREA_FILENAME YINT048.03_Workday_to_Buildr_Areas.csv
++BUILDR_CC_MAILID buildr2@yahoo-inc.com
++BUILDR_DB_NAME buildr
++BUILDR_DB_RO_HOST prod-mysql-db-ro-corpapps.corp.yahoodns.net
++BUILDR_DB_RW_HOST prod-mysql-db-rw-corpapps.corp.yahoodns.net
++BUILDR_DEV_ILIST buildr2@yahoo-inc.com
++BUILDR_DOC_ROOT /home/y/share/htdocs/buildr
++BUILDR_PEAR_ROOT /home/y/share/pear/buildr
++CATEGORY_FILENAME YINT048.04_Workday_to_Buildr_Categories.csv
++DECRYPT_RECIPIENT_NAME buildr-prod
++ENABLED_MONTH 2
++ENCRYPT_EXTENSION .pgp
++ENCRYPT_RECIPIENT_NAME YINT048_02_Buildr_to_Workday_PGP_Key
++FTP_SERVER_URL dropbox.yahoo.com
++MASTER_SERVER_NAME prod-buildr.corpapps.corp.gq1.yahoo.com
++PROJECT_FILENAME YINT048.01_Workday_to_Buildr_Projects.csv
++RESOURCE_ALLOCATION_FILENAME YINT048.02_Buildr_to_Workday.xml
++WORKDAY_INBOUND_PATH inbound
++WORKDAY_OUTBOUND_PATH outbound
++YINST ENABLED_MONTH 1
++YINST_ACCESS_CONTROL_HOST_URL http://buildr.corp.yahoo.com
++YINST_BOUNCER_APPID 10756
++YINST_BUILDR_MAIL Buildr<buildr2@yahoo-inc.com>
++YINST_BY_BACKARD_JS http://p.yimg.com/lv/p/js/backyard-min.js
++YINST_BY_BACKYARD_CSS http://api.backyard3.corp.yahoo.com/by_assets/css/components.css.php?files=backyard.css,c08.css,t03.css
++YINST_BY_BACKYARD_LINK http://backyard3.corp.yahoo.com
++YINST_BY_BACKYARD_SEARCH_APPID 1278039992
++YINST_BY_BACKYARD_SEARCH_HOSTNAME search.corp.yahoo.com
++YINST_BY_BACKYARD_T03_INIT_JS http://p.yimg.com/lv/p/js/components/t03_init-min.js
++YINST_BY_BACKYARD_T03_JS http://p.yimg.com/lv/p/js/components/t03-min.js
++YINST_BY_FOOTER http://api.backyard3.corp.yahoo.com/ws/v1/by3/?method=getFooter&sid=Backyard3&data=GET&f=json
++YINST_BY_HEADER http://api.backyard3.corp.yahoo.com/ws/v1/by3/?method=getHeader&sid=Backyard3&appid=1278039992
++YINST_BY_LEFT_NAVIGATION http://api.backyard3.corp.yahoo.com/ws/v1/by3/?method=getLeftMenus&sid=Backyard3&appid=1278039992
++YINST_BY_PROFILE_JS http://p.yimg.com/lv/p/js/components/profile-min.js
++YINST_BY_RESPOND_JS http://l.yimg.com/zz/combo?p:lv/p/js/lib/modernizr.custom.08259-min-240414.js&p:lv/p/js/lib/respond.min.js
++YINST_BY_SEARCH_CSS http://search.corp.yahoo.com/api/css/searchbox.css
++YINST_BY_SEARCH_JS http://search.corp.yahoo.com/api/js/searchbox.js
++YINST_BY_SERVICE_JS http://p.yimg.com/lv/p/js/by3_service-min.js
++YINST_BY_YCA_CERT yahoo.corpapps.components.wsuser_prod
++YINST_CMS_HOST api.eaf.corp.yahoo.com
++YINST_CNAME_URL http://buildr.corp.yahoo.com
++YINST_DEBUG false
++YINST_DEMO_SERVER false
++YINST_ENVIRONMENT production
++YINST_IS_PROD true
++YINST_IS_WRITE_HOST true
++YINST_LOCALE_ID 56
++YINST_PROD_URL buildr.corp.yahoo.com
++YINST_YCA_CERT yahoo.incorpapps.prdhosts
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/buildrapi	2016-02-18 23:36:59.012001518 +0000
+@@ -0,0 +1,4 @@
++YINST_API_CACHE 0
++YINST_DB_NAME buildr
++YINST_DB_READHOST prod-mysql-db-ro-corpapps.corp.yahoodns.net
++YINST_SERVER_NAME buildrapi.corp.yahoo.com
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/daemontools_y	2016-02-18 23:36:59.013001518 +0000
+@@ -0,0 +1,2 @@
++SVSCAN_USE_LOG true
++autostart on
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/mysql_config_multi	2016-02-18 23:36:59.013001518 +0000
+@@ -0,0 +1,2 @@
++defaults defaults_55
++instances mysqld
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/root	2016-02-18 23:37:01.233001518 +0000
+@@ -0,0 +1 @@
++os_restriction rhel-6.x
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/webctl	2016-02-18 23:36:59.013001518 +0000
+@@ -0,0 +1,5 @@
++admin logs-webctl@yahoo-inc.com
++autostart on
++no_hup_on_rotate on
++yapache_bin bin64
++yapache_vers yapache22
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/yahoo_wscl	2016-02-18 23:36:59.013001518 +0000
+@@ -0,0 +1,5 @@
++LOGGING off
++METRICS off
++SBMNODE DEFAULT
++SBNAME DEFAULT
++WAIT_UNTIL_TIMEOUT off
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/yapache	2016-02-18 23:36:59.013001518 +0000
+@@ -0,0 +1 @@
++autostart on
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/yca_cert	2016-02-18 23:36:59.014001518 +0000
+@@ -0,0 +1,10 @@
++autostart on
++ca_host ca.yca.platform.yahoo.com
++cert_grace_period 345600
++cron_mailto $(YINST_INSTALLER)@yahoo-inc.com
++key_size 512
++master_hostname ''
++mdbm_open_single_arch 0
++platform x86_64-linux-gcc
++use_proxy 0
++use_socks_proxy 0
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/yca_client_certs	2016-02-18 23:36:59.014001518 +0000
+@@ -0,0 +1,2 @@
++autostart on
++cron_mailto $(YINST_INSTALLER)@yahoo-inc.com
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/yck_data	2016-02-18 23:36:59.014001518 +0000
+@@ -0,0 +1,17 @@
++crumbs_secret__group_acl tcookie
++crumbs_secret__user_acl root
++eytcookie_secret__group_acl tcookie
++eytcookie_secret__user_acl root
++svc_type prod
++tcookie_issue_ks_secret__group_acl tcookie
++tcookie_issue_ks_secret__user_acl root
++tcookie_issue_kt_secret__group_acl tcookie
++tcookie_issue_kt_secret__user_acl root
++tcookie_issue_secret__group_acl tcookie
++tcookie_issue_secret__user_acl root
++tcookie_secret__group_acl tcookie
++tcookie_secret__user_acl root
++tcookie_validate_ks_secret__group_acl tcookie
++tcookie_validate_ks_secret__user_acl root
++tcookie_validate_kt_secret__group_acl tcookie
++tcookie_validate_kt_secret__user_acl root
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ycore++	2016-02-18 23:36:59.014001518 +0000
+@@ -0,0 +1,5 @@
++add_uid_to_browscap 0
++cache_mode internal
++max_cache_entries 4096
++max_cache_size 134217728
++page_size 4096
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ycron	2016-02-18 23:36:59.014001518 +0000
+@@ -0,0 +1 @@
++autostart on
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ykeydb	2016-02-18 23:36:59.014001518 +0000
+@@ -0,0 +1,4 @@
++debug_mode disable
++run_mode YKEYDB_MODE
++use_thread_TLS_ykkhandle disable
++use_thread_locks enable
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ykeykey	2016-02-18 23:36:59.014001518 +0000
+@@ -0,0 +1,5 @@
++cache_disabled false
++log_level log_error
++negative_caching enable
++read_timeout 5000
++reconn_timeout 3000
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ylock	2016-02-18 23:36:59.014001518 +0000
+@@ -0,0 +1,2 @@
++autostart on
++crontab on
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ylock_kern	2016-02-18 23:36:59.015001518 +0000
+@@ -0,0 +1 @@
++autostart on
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ymonsb	2016-02-18 23:36:59.015001518 +0000
+@@ -0,0 +1 @@
++autostart on
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/yms_agent	2016-02-18 23:36:59.015001518 +0000
+@@ -0,0 +1,14 @@
++appid 
++autostart on
++clusters corpappsin
++collector 
++debug 
++max_log_length 16777215
++max_logs 100
++port 9898
++ssl_port 9899
++trap_buflen 16384
++trap_cluster corpappsin
++trap_config /home/y/conf/yms_syslog_trap
++trap_maxdelay 2
++user root
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/yms_syslog_trap	2016-02-18 23:36:59.015001518 +0000
+@@ -0,0 +1,2 @@
++interval 60
++matches 1
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ysar	2016-02-18 23:36:59.015001518 +0000
+@@ -0,0 +1,2 @@
++crontab on
++gather_freq 5
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ystatus	2016-02-18 23:36:59.015001518 +0000
+@@ -0,0 +1 @@
++autostart on
+--- /dev/null	2015-03-22 06:25:13.748000004 +0000
++++ var/yinst/settings/ysysctl	2016-02-18 23:36:59.015001518 +0000
+@@ -0,0 +1 @@
++autostart on
+--- var/yinst/packages/ats-5.0.1_73/conf/trafficserver/logs_xml.config	2014-12-16 19:01:18.000000000 +0000
++++ conf/trafficserver/logs_xml.config	2016-02-18 23:37:00.509001518 +0000
+@@ -23,24 +23,12 @@
+        A valid format specification is a printf-style string that describes
+        what each log entry looks like when formatted for ascii output.
+        Placeholders for valid Inktomi field names are specified using the
+-       notation '%<field>'.  The specified field can be of two types:
+-           (1) simple field: '%<field>', for example %<cqu>.
+-           (2) container field: '%<field>container', which is a field within
+-               a container (such as an http header or an Inktomi stat).  See
+-               documentation for valid container names.
+-       To limit the length of field's output, we can use slice notation with
+-       above two types:
+-           (1) simple field with slice: '%<field[start:end]>',
+-           (2) container field with slice: '%<field>container[start:end]'.
+-           Here is same example about slice notation:
+-            '%<cqup>[:]'    # the whole characters of <cqup>.
+-            '%<cqup[0:30]>' # the first 30 characters of <cqup>.
+-            '%<cqup[-10:]>' # the last 10 characters of <cqup>.
+-            '%<cqup[:-5]>'  # everything except the last 5 characters of <cqup>.
+-          Note: slice notation makes sense only when:
+-            * the target field is a string type, and
+-            * it shouldn't be ip/timestamp which are converted
+-              to string from integer internally.
++       notation '%<field>'.  The specified field can be of two types: 
++           (1) simple; example %<cqu> 
++	   (2) container field, which is a field within a container (such
++	   as an http header or an Inktomi stat).  Fields of this type have
++	   the syntax: '%<{field}container>'.  See documentation for valid
++	   container names.
+        If you want to include quotes within the format string, escape them
+        with a backslash. For example, to quote the client request url (cqu),
+        you would type something like
+@@ -111,8 +99,14 @@
+ 
+ * <Action = "valid_action"/>
+       This defines the action that the filter takes, and can be either
+-      ACCEPT, or REJECT. ACCEPT accepts the records that satisfy the Condition,
+-      REJECT rejects the records that satisfy the condition.
++      ACCEPT, REJECT or WIPE. ACCEPT accepts the records that satisfy the Condition,
++      REJECT rejects the records that satisfy the condition.  WIPE wipes out 
++      the values of the query params in the url fields specified in the Condition.
++
++NOTES: 1. WIPE action is only applied to the parameters in the query part.
++       2. Multiple parameters can be listed in a single WIPE filter 
++       3. If the same parameter appears more than once in the query part , only
++          the first occurance is wiped
+ 
+ Example1: only log REFRESH_HIT entries
+ 
+@@ -130,6 +124,15 @@
+     <Action = "REJECT"/>
+ </LogFilter>
+ 
++Example3: wipe out password field from cquc field
++
++<LogFilter>
++    <Name = "wipe_password"/>
++    <Condition = "cquc CONTAIN passwd"/>
++    <Action = "WIPE"/>
++</LogFilter>
++
++
+ -------------------------------------------------------------------------->
+ 
+ <!------------------------------------------------------------------------
+@@ -198,14 +201,6 @@
+       either a name or an ip. For example:
+       <CollationHosts = "host1.company.com:5000, 209.131.52.129:6000"/>
+ 
+-      Also, we can introduce failover hosts for each collation host by
+-      using '|' delimiter, For example:
+-      <CollationHosts = "host1:5000|host2:5000|host3:6000, 209.131.52.129:6000"/>
+-
+-      In the example above, host2/host3 are failover hosts for host1. When host1
+-      disconnected, log entries will be sent to host2, and then if host2 failed
+-      again, log entries will be sent to host3 until host1 or host2 comes back.
+-
+   <Header = "header"/>
+       This tag specifies a string to be written at the beginning of
+       the log file, just before the first record.
+@@ -388,4 +383,3 @@
+   <Format = "%<cqts> %<ttms> %<chi> %<crc>/%<pssc> %<psql> %<cqhm> %<cquc> %<caun> %<phr>/%<pqsn> %<psct>"/>
+ </LogFormat>
+ 
+-
+--- var/yinst/packages/ats-5.0.1_73/conf/trafficserver/records.config	2014-12-16 19:03:07.000000000 +0000
++++ conf/trafficserver/records.config	2016-02-18 23:37:00.551001518 +0000
+@@ -1,50 +1,190 @@
++#
++#
++# Process Records Config File
++#
++# <RECORD-TYPE> <NAME> <TYPE> <VALUE (till end of line)>
++#
++#	RECORD-TYPE:	CONFIG, LOCAL
++#	NAME:		name of variable
++#	TYPE:		INT, STRING, FLOAT
++#	VALUE:		Initial value for record
++#
++#
++# *NOTE*: All options covered in this file should be documented in the
++#         administration guide or the addendum:
++#
++#
+ ##############################################################################
+-# *NOTE*: All options covered in this file should be documented in the docs:
+ #
+-#    https://docs.trafficserver.apache.org/en/latest/reference/configuration/records.config.en.html
++# System Variables
++#
+ ##############################################################################
+-
++CONFIG proxy.config.proxy_name STRING prod-buildr.corpapps.corp.gq1.yahoo.com
++CONFIG proxy.config.config_dir STRING conf/trafficserver
++CONFIG proxy.config.proxy_binary_opts STRING -M
++CONFIG proxy.config.env_prep STRING example_prep.sh
++CONFIG proxy.config.alarm_email STRING yahoo-dev-null@yahoo-inc.com
++CONFIG proxy.config.syslog_facility STRING LOG_DAEMON
++CONFIG proxy.config.output.logfile STRING traffic.out
++CONFIG proxy.config.snapshot_dir STRING snapshots
++CONFIG proxy.config.system.mmap_max INT 2097152
+ ##############################################################################
+-# Thread configurations. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#proxy-config-exec-thread-autoconfig
++#
++# Main threads configuration (worker threads). Also see configurations for
++# SSL threads, disk I/O threads and task threads in their respective areas.
++#
+ ##############################################################################
+ CONFIG proxy.config.exec_thread.autoconfig INT 1
+-CONFIG proxy.config.exec_thread.autoconfig.scale FLOAT 1.5
++CONFIG proxy.config.exec_thread.autoconfig.scale FLOAT 1.500000
+ CONFIG proxy.config.exec_thread.limit INT 2
+-CONFIG proxy.config.ssl.number.threads INT 0
+ CONFIG proxy.config.accept_threads INT 1
+-CONFIG proxy.config.task_threads INT 2
+-CONFIG proxy.config.cache.threads_per_disk INT 8
+-    # https://docs.trafficserver.apache.org/records.config#proxy-config-exec-thread-affinity
+-CONFIG proxy.config.exec_thread.affinity INT 0
+-
+ ##############################################################################
+-# Specify server addresses and ports to bind for HTTP and HTTPS. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#proxy-config-http-server-ports
++#
++# Local Manager
++#
+ ##############################################################################
+-CONFIG proxy.config.http.server_ports STRING 8080
+-
++CONFIG proxy.config.admin.admin_user STRING admin
++CONFIG proxy.config.admin.number_config_bak INT 3
++CONFIG proxy.config.admin.user_id STRING nobody
+ ##############################################################################
+-# Via: headers. Docs:
+-#     https://docs.trafficserver.apache.org/records.config#proxy-config-http-insert-response-via-str
++#
++# Process Manager
++#
+ ##############################################################################
+-CONFIG proxy.config.http.insert_request_via_str INT 1
+-CONFIG proxy.config.http.insert_response_via_str INT 0
+-
++CONFIG proxy.config.admin.autoconf_port INT 8083
++CONFIG proxy.config.process_manager.mgmt_port INT 8084
++##############################################################################
++#
++# In order to only bind a specific IP, use the following config, as in
++# the example below. Note - this can contain two addresses, one for IPv4
++# sockets and one for IPv6 sockets.
++#
++##############################################################################
++#LOCAL proxy.local.incoming_ip_to_bind STRING 192.168.101.17
++#LOCAL proxy.local.incoming_ip_to_bind STRING 192.168.101.17 fc07:192:168:101::17
++##############################################################################
++LOCAL proxy.local.incoming_ip_to_bind STRING NULL 
++#############################################################################
++#
++# This controls the global default for the local IP address for outbound 
++# connections to origin servers. The value is a list of space separated IP 
++# addresses, one per supported IP address family.
++#
++#############################################################################
++LOCAL proxy.local.outgoing_ip_to_bind STRING NULL
++##############################################################################
++#
++# Alarm Configuration
++#
+ ##############################################################################
+-# Parent proxy configuration, in addition to these settings also see parent.config. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#parent-proxy-configuration
+-#    https://docs.trafficserver.apache.org/en/latest/reference/configuration/parent.config.en.html
++   # execute alarm as "<abs_path>/<bin> "<MSG_STRING_FROM_PROXY>""
++CONFIG proxy.config.alarm.bin STRING example_alarm_bin.sh
++CONFIG proxy.config.alarm.abs_path STRING NULL
+ ##############################################################################
++#
++# HTTP Engine
++#
++##############################################################################
++   ##########
++   # basics #
++   ##########
++   # The server ports are listed here. These are separated by spaces or commas.
++   # Each port is a colon separated list of values, which must include a
++   # port number. The order is irrelevant. Other options are
++   # ipv4 - Use IPv4 (default)
++   # ipv6 - Use IPv6
++   # tr-in - Transparent inbound.
++   # tr-out - Transparent outbound.
++   # tr-full - Fully transparent (inbound and outbound).
++   # tr-pass - Transparently Pass-through non-HTTP traffic (in conjuction with tr-in).
++   # ssl - SSL terminated port.
++   # blind - Blind tunnel port (CONNECT only)
++   # ip-in=[addr] - Bind inbound IP address (listen for client).
++   # ip-out=[addr] - Bind outbound IP address (connect to origin server).
++   # ip-resolve=[style] - Set the IP resolution style.
++   #
++   # Note - address types must agree with each other and the ipv4/ipv6
++   # option if specified. IPv6 addresses must be enclosed in brackets.
++   # ip-out can be repeated as long as each address is a different
++   # family. If ip-in is specified as an IPv6 address, the port is
++   # forced to IPv6. Transparent ports cannot be bound to an IP
++   # address on the transparent side.
++   #
++   # The '=' is optional for any option with a value.
++   #
++   # Example 1: Port 8080 IPv6 inbound transparent, and port 80 IPv4
++   # "8080:ipv6:tr-in 80"
++   #
++   # Example 2: Listen on standard http and https ports for IPv4 and IPv6,
++   # fully transparent on the http ports. Also provide an non-transparent
++   # port at address 192.168.1.56 on port 8080.
++   # "80:ipv4:tr-full tr-full:80:ipv6 443:ipv4:ssl 443:ssl:ipv6 ip-in=192.168.1.56:8080"
++   #
++CONFIG proxy.config.http.server_ports STRING 443:ssl
++   # Ports on the origin server to which a blind tunnel may connect.
++CONFIG proxy.config.http.connect_ports STRING 443 563
++   # The via settings have four values
++   #  0 - Do not modify / set this via header
++   #  1 - Update the via, with normal verbosity
++   #  2 - Update the via, with higher verbosity
++   #  3 - Update the via, with highest verbosity
++CONFIG proxy.config.http.insert_request_via_str INT 1
++CONFIG proxy.config.http.insert_response_via_str INT 0
++   # Insert a Server: header, this has three values
++   #   0 - Don't add or modify the Server: header
++   #   1 - Add a Server: header
++   #   2 - Only add a Server: header if one doesn't exist already
++CONFIG proxy.config.http.response_server_enabled INT 1
++CONFIG proxy.config.http.response_server_str STRING ATS
++CONFIG proxy.config.http.insert_age_in_response INT 1
++CONFIG proxy.config.http.enable_url_expandomatic INT 0
++CONFIG proxy.config.http.no_dns_just_forward_to_parent INT 0
++CONFIG proxy.config.http.uncacheable_requests_bypass_parent INT 1
++CONFIG proxy.config.http.keep_alive_enabled_in INT 1
++CONFIG proxy.config.http.keep_alive_enabled_out INT 1
++CONFIG proxy.config.http.chunking_enabled INT 1
++CONFIG proxy.config.http.post.check.content_length.enabled INT 1
++   # send http11 requests:
++   #   0 - Never
++   #   1 - Always
++   #   2 - if the server has returned http1.1 before
++   #   3 - if the client request is 1.1 & the server has returned 1.1 before
++   # If use_client_addr is set to 1, options 2 and 3 cause the proxy to use
++   # the client HTTP version for upstream requests.
++CONFIG proxy.config.http.send_http11_requests INT 1
++   # Share server connections
++   #  0 - Never
++   #  1 - Share, with a single global connection pool
++   #  2 - Share, with a connection pool per worker thread
++   #
++   #  1 is recommended for YCS / 2 is recommended for YCPI
++CONFIG proxy.config.http.share_server_sessions INT 2
++CONFIG proxy.config.http.origin_server_pipeline INT 1
++CONFIG proxy.config.http.user_agent_pipeline INT 8
++   ##########################
++   # HTTP referer filtering #
++   ##########################
++CONFIG proxy.config.http.referer_filter INT 0
++CONFIG proxy.config.http.referer_format_redirect INT 0
++CONFIG proxy.config.http.referer_default_redirect STRING http://www.yahoo.com
++   ##############################
++   # parent proxy configuration #
++   ##############################
+ CONFIG proxy.config.http.parent_proxy_routing_enable INT 0
+ CONFIG proxy.config.http.parent_proxy.retry_time INT 300
++   # Parent fail threshold is the number of request that must
++   # fail within the retry window for the parent to be marked
++   # down
++CONFIG proxy.config.http.parent_proxy.fail_threshold INT 10
++CONFIG proxy.config.http.parent_proxy.total_connect_attempts INT 4
++CONFIG proxy.config.http.parent_proxy.per_parent_connect_attempts INT 2
+ CONFIG proxy.config.http.parent_proxy.connect_attempts_timeout INT 30
+ CONFIG proxy.config.http.forward.proxy_auth_to_parent INT 0
+-
+-##############################################################################
+-# HTTP connection timeouts (secs). Docs:
+-#    https://docs.trafficserver.apache.org/records.config#http-connection-timeouts
+-##############################################################################
++   ###################################
++   # HTTP connection timeouts (secs) #
++   ###################################
++   # out: proxy -> origin server connection
++   # in : ua -> proxy connection
+ CONFIG proxy.config.http.keep_alive_no_activity_timeout_in INT 115
+ CONFIG proxy.config.http.keep_alive_no_activity_timeout_out INT 120
+ CONFIG proxy.config.http.transaction_no_activity_timeout_in INT 30
+@@ -52,12 +192,11 @@
+ CONFIG proxy.config.http.transaction_active_timeout_in INT 900
+ CONFIG proxy.config.http.transaction_active_timeout_out INT 0
+ CONFIG proxy.config.http.accept_no_activity_timeout INT 120
+-CONFIG proxy.config.net.default_inactivity_timeout INT 86400
+-
+-##############################################################################
+-# Origin server connect attempts. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#origin-server-connect-attempts
+-##############################################################################
++CONFIG proxy.config.http.background_fill_active_timeout INT 60
++CONFIG proxy.config.http.background_fill_completed_threshold FLOAT 0.500000
++   ##################################
++   # origin server connect attempts #
++   ##################################
+ CONFIG proxy.config.http.connect_attempts_max_retries INT 6
+ CONFIG proxy.config.http.connect_attempts_max_retries_dead_server INT 3
+ CONFIG proxy.config.http.connect_attempts_rr_retries INT 3
+@@ -65,141 +204,561 @@
+ CONFIG proxy.config.http.post_connect_attempts_timeout INT 1800
+ CONFIG proxy.config.http.down_server.cache_time INT 300
+ CONFIG proxy.config.http.down_server.abort_threshold INT 10
+-
+-##############################################################################
+-# Negative response caching, for redirects and errors. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#negative-response-caching
+-##############################################################################
++   ##################################
++   # congestion control             #
++   ##################################
++CONFIG proxy.config.http.congestion_control.enabled INT 0
++   #############################
++   # negative response caching #
++   #############################
+ CONFIG proxy.config.http.negative_caching_enabled INT 0
+ CONFIG proxy.config.http.negative_caching_lifetime INT 1800
+-
+-##############################################################################
+-# Proxy users variables. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#proxy-user-variables
+-##############################################################################
++   #########################
++   # proxy users variables #
++   #########################
++CONFIG proxy.config.http.anonymize_remove_from INT 0
++CONFIG proxy.config.http.anonymize_remove_referer INT 0
++CONFIG proxy.config.http.anonymize_remove_user_agent INT 0
++CONFIG proxy.config.http.anonymize_remove_cookie INT 0
++CONFIG proxy.config.http.anonymize_remove_client_ip INT 0
+ CONFIG proxy.config.http.anonymize_insert_client_ip INT 1
++CONFIG proxy.config.http.anonymize_other_header_list STRING NULL
+ CONFIG proxy.config.http.insert_squid_x_forwarded_for INT 1
+-
+-##############################################################################
+-# Security. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#security
+-##############################################################################
++   ############
++   # security #
++   ############
+ CONFIG proxy.config.http.push_method_enabled INT 0
+ 
+-##############################################################################
+-# Cache control. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#cache-control
+-#    https://docs.trafficserver.apache.org/en/latest/reference/configuration/cache.config.en.html
+-##############################################################################
+-CONFIG proxy.config.http.cache.ignore_client_cc_max_age INT 1
+-CONFIG proxy.config.http.normalize_ae_gzip INT 1
++#  ###################################
++#  # HTTP Quick filtering (security) #
++#  ###################################
++#  this functionality is moved to ip_allow.config
++
++   #################
++   # cache control #
++   #################
++CONFIG proxy.config.http.cache.http INT 1
++   # Enabling this setting allows the proxy to cache empty documents. This currently
++   # requires that the response has a Content-Length: header, with a value of "0".
++CONFIG proxy.config.http.cache.allow_empty_doc INT 0
++CONFIG proxy.config.http.cache.ignore_client_no_cache INT 1
++CONFIG proxy.config.http.cache.ims_on_client_no_cache INT 1
++CONFIG proxy.config.http.cache.ignore_server_no_cache INT 0
++CONFIG proxy.config.http.cache.ignore_client_cc_max_age INT 0
++CONFIG proxy.config.http.normalize_ae_gzip INT 0
++   # cache responses to cookies has 5 options:
++   #   0 - do not cache any responses to cookies
++   #   1 - cache for any content-type
++   #   2 - cache only for image types
++   #   3 - cache for all but text content-types
++   #   4 - cache for all but text content-types except OS response
++   #       without "Set-Cookie" or with "Cache-Control: public"
++   # See also cache-responses-to-cookies in cache.config.
+ CONFIG proxy.config.http.cache.cache_responses_to_cookies INT 1
++CONFIG proxy.config.http.cache.ignore_authentication INT 0
+ CONFIG proxy.config.http.cache.cache_urls_that_look_dynamic INT 1
+-    # https://docs.trafficserver.apache.org/records.config#proxy-config-http-cache-when-to-revalidate
++CONFIG proxy.config.http.cache.enable_default_vary_headers INT 0
++   #  when_to_revalidate has 5 options:
++   #    0 - default. use cache directives or heuristic
++   #    1 - stale if heuristic
++   #    2 - always stale (always revalidate)
++   #    3 - never stale
++   #    4 - always revalidate if request is conditional, else default is used
+ CONFIG proxy.config.http.cache.when_to_revalidate INT 0
+-    # https://docs.trafficserver.apache.org/records.config#proxy-config-http-cache-required-headers
++   # Some old MSIE browsers don't send no-cache headers to
++   # reverse proxies or transparent caches, this variable controls
++   # when to add no-cache headers to MSIE requests:
++   #  -1 - no-cache is never added, stats are not updated
++   #   0 - default; no-cache not added to MSIE requests
++   #   1 - no-cache added to IMS MSIE requests
++   #   2 - no-cache added to all MSIE requests
++CONFIG proxy.config.http.cache.when_to_add_no_cache_to_msie_requests INT -1
++   # required headers: three options:
++   #   0 - No required headers to make document cachable
++   #   1 - "Last-Modified:", "Expires:", or "Cache-Control: max-age" required
++   #   2 - explicit lifetime required, "Expires:" or "Cache-Control: max-age"
+ CONFIG proxy.config.http.cache.required_headers INT 2
+-
+-##############################################################################
+-# Heuristic cache expiration. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#heuristic-expiration
+-##############################################################################
++CONFIG proxy.config.http.cache.max_stale_age    INT 604800
++CONFIG proxy.config.http.cache.range.lookup     INT 1
++CONFIG proxy.config.http.cache.range.write      INT 0
++CONFIG proxy.config.cache.enable_checksum      INT 0
++CONFIG proxy.config.http_ui_enabled             INT 0
++   ########################
++   # heuristic expiration #
++   ########################
+ CONFIG proxy.config.http.cache.heuristic_min_lifetime INT 3600
+ CONFIG proxy.config.http.cache.heuristic_max_lifetime INT 86400
+-CONFIG proxy.config.http.cache.heuristic_lm_factor FLOAT 0.10
++CONFIG proxy.config.http.cache.heuristic_lm_factor FLOAT 0.100000
++CONFIG proxy.config.http.cache.fuzz.time INT 240
++CONFIG proxy.config.http.cache.fuzz.probability FLOAT 0.005000
++   #########################################
++   # dynamic content & content negotiation #
++   #########################################
++CONFIG proxy.config.http.cache.vary_default_text STRING NULL
++CONFIG proxy.config.http.cache.vary_default_images STRING NULL
++CONFIG proxy.config.http.cache.vary_default_other STRING NULL
++   ##############################################################
++   # The HTTP stats are expensive, turn off you don't need them #
++   ##############################################################
++CONFIG proxy.config.http.enable_http_stats INT 1
+ 
+ ##############################################################################
+-# Network. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#network
++#
++# Customizable User Response Pages
++#
++##############################################################################
++   # 1 - enable customizable user response pages in only the "default" directory
++   # 2 - enable language-targeted user response pages
++CONFIG proxy.config.body_factory.enable_customizations INT 1
++CONFIG proxy.config.body_factory.enable_logging INT 0
++   # 0 - never suppress generated responses
++   # 1 - always suppress generated responses
++   # 2 - suppress responses for intercepted traffic
++CONFIG proxy.config.body_factory.response_suppression_mode INT 0
++##############################################################################
++#
++# Net Subsystem
++#
+ ##############################################################################
+ CONFIG proxy.config.net.connections_throttle INT 30000
+-
++   # Enable defer accept / accept filtering. On Linux, this is a timeout, sec.
++CONFIG proxy.config.net.defer_accept INT 45
++##############################################################################
++#
++# Cluster Subsystem
++#
+ ##############################################################################
+-# RAM and disk cache configurations. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#ram-cache
+-#    https://docs.trafficserver.apache.org/en/latest/reference/configuration/storage.config.en.html
++   # cluster type requires restart to change
++   # 1 is full clustering, 2 is mgmt only, 3 is no clustering
++LOCAL proxy.local.cluster.type INT 3
++CONFIG proxy.config.cluster.cluster_port INT 8086
++CONFIG proxy.config.cluster.rsport INT 8088
++CONFIG proxy.config.cluster.mcport INT 8089
++CONFIG proxy.config.cluster.mc_group_addr STRING 224.0.1.37
++CONFIG proxy.config.cluster.mc_ttl INT 1
++CONFIG proxy.config.cluster.log_bogus_mc_msgs INT 1
++CONFIG proxy.config.cluster.ethernet_interface STRING eth0
+ ##############################################################################
+-CONFIG proxy.config.cache.ram_cache.size INT -1
++#
++# Cache
++#
++##############################################################################
++CONFIG proxy.config.cache.permit.pinning INT 0
++   # default the ram cache size to AUTO_SIZE (-1) based on cache size
++   #   (approximately 10 MB of RAM cache per GB of disk cache)
++   # alternatively, set to a fixed value such as 21474836480 (20GB)
++CONFIG proxy.config.cache.ram_cache.size INT 0
+ CONFIG proxy.config.cache.ram_cache_cutoff INT 4194304
+-    # https://docs.trafficserver.apache.org/records.config#proxy-config-cache-limits-http-max-alts
++   # Replacement algorithm
++   #  0 : Clocked Least Frequently Used by Size (CLFUS) w/optional compression
++   #  1 : LRU w/o optional compression - trivially simple
++CONFIG proxy.config.cache.ram_cache.algorithm INT 0
++   # Filter inserts into the RAM cache to ensure that they have been seen at
++   # least once.  For LRU, this provides scan resistance. Note that CLFUS
++   # already requires that a document have history before it is inserted, so
++   # for CLFUS, setting this option means that a document must be seen three
++   # times before it is added to the RAM cache.
++CONFIG proxy.config.cache.ram_cache.use_seen_filter INT 0
++   # Compress the content of the ram cache:
++   #  0 : no compression
++   #  1 : fastlz (extremely fast, relatively low compression)
++   #  2 : libz (moderate speed, reasonable compression)
++   #  3 : liblzma (very slow, high compression)
++   #  NOTE: compression runs on task threads.  To use more cores for
++   #  compression, increase proxy.config.task_threads.
++CONFIG proxy.config.cache.ram_cache.compress INT 0
++   # The maximum number of alternates that are allowed for any given URL.
++   # It is not possible to strictly enforce this if the variable
++   #   'proxy.config.cache.vary_on_user_agent' is set to 1.
++   # The default value for 'proxy.config.cache.vary_on_user_agent' is 0.
++   # (0 disables the maximum number of alts check)
+ CONFIG proxy.config.cache.limits.http.max_alts INT 5
+-    # https://docs.trafficserver.apache.org/records.config#proxy-config-cache-max-doc-size
++   # The target size of a contiguous fragment on disk.
++   # Acceptable values are powers of 2, e.g. 65536, 131072, 262144, 524288, 1048576, 2097152.
++   # Larger could waste memory on slow connections, smaller could waste seeks.
++CONFIG proxy.config.cache.target_fragment_size INT 1048576
++   # The maximum size of a document that will be stored in the cache.
++   # (0 disables the maximum document size check)
+ CONFIG proxy.config.cache.max_doc_size INT 0
++   # enable the cache to read from an object while it is being added to the cache
++CONFIG proxy.config.cache.enable_read_while_writer INT 0
++   # This controls how many objects (average) the disk caches can hold, and
++   # how much memory it'll consume for the directory structure.
+ CONFIG proxy.config.cache.min_average_object_size INT 8000
+-
++   # How many I/O threads to allocate per disk (spindle). Be aware that RAID
++   # disks would show up to TS as a single spindle.
++CONFIG proxy.config.cache.threads_per_disk INT 8
++   # Time (in ms) to delay until retrying to acquire a cache lock. Setting
++   # this low can reduce latencies in some cases, but can consume more CPU.
++   # If you experience CPU spinning, try increasing this setting.
++CONFIG proxy.config.cache.mutex_retry_delay INT 2
++   # The interim storage disks. Must use raw disks.
++   # Only support at most 8 interim disks now. e.g.
++   # proxy.config.cache.interim.storage STRING /dev/sda /dev/sdb/
++LOCAL proxy.config.cache.interim.storage STRING NULL
++##############################################################################
++#
++# DNS
++#
++##############################################################################
++CONFIG proxy.config.dns.search_default_domains INT 1
++CONFIG proxy.config.dns.splitDNS.enabled INT 0
++CONFIG proxy.config.dns.max_dns_in_flight INT 2048
++   # Additional URL expansions for http DNS lookup
++CONFIG proxy.config.dns.url_expansions STRING NULL
++CONFIG proxy.config.dns.round_robin_nameservers INT 0
++CONFIG proxy.config.dns.nameservers STRING NULL
++CONFIG proxy.config.dns.resolv_conf STRING /etc/resolv.conf
++   # This provides additional resilience against DNS forgery, particularly in
++   # forward or transparent proxies, but requires that the resolver populates
++   # the queries section of the response properly.
++CONFIG proxy.config.dns.validate_query_name INT 0
++##############################################################################
++#
++# HostDB
++#
++##############################################################################
++   # in entries, may not be changed while running
++   # note that in order to increase hostdb.size, hostdb.storage_size should
++   # also be increase. These are best guesses, you will have to monitor this.
++CONFIG proxy.config.hostdb.size INT 120000
++CONFIG proxy.config.hostdb.storage_size INT 33554432
++   # ttl modes:
++   #   0 = obey
++   #   1 = ignore
++   #   2 = min(X,ttl)
++   #   3 = max(X,ttl)
++CONFIG proxy.config.hostdb.ttl_mode INT 0
++   # in minutes...
++CONFIG proxy.config.hostdb.timeout INT 1440
++   # round-robin addresses for single clients
++   # (can cause authentication problems)
++CONFIG proxy.config.hostdb.strict_round_robin INT 0
+ ##############################################################################
+-# Logging Config. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#logging-configuration
+-#    https://docs.trafficserver.apache.org/en/latest/reference/configuration/logs_xml.config.en.html
++#
++# Logging Config
++#
+ ##############################################################################
++   # possible values for logging_enabled:
++   #   0: no logging at all
++   #   1: log errors only
++   #   2: log transactions only
++   #   3: full logging (errors + transactions)
+ CONFIG proxy.config.log.logging_enabled INT 3
++CONFIG proxy.config.log.log_buffer_size INT 9216
++CONFIG proxy.config.log.max_line_size INT 9216
++CONFIG proxy.config.log.max_secs_per_buffer INT 5
+ CONFIG proxy.config.log.max_space_mb_for_logs INT 25000
++CONFIG proxy.config.log.max_space_mb_for_orphan_logs INT 25
+ CONFIG proxy.config.log.max_space_mb_headroom INT 1000
++CONFIG proxy.config.log.hostname STRING localhost
++CONFIG proxy.config.log.logfile_dir STRING logs/trafficserver
++CONFIG proxy.config.log.logfile_perm STRING rw-r--r--
++CONFIG proxy.config.log.custom_logs_enabled INT 0
+ CONFIG proxy.config.log.squid_log_enabled INT 1
+ CONFIG proxy.config.log.squid_log_is_ascii INT 0
+-CONFIG proxy.config.log.rolling_enabled INT 1
++CONFIG proxy.config.log.squid_log_name STRING squid
++CONFIG proxy.config.log.squid_log_header STRING NULL
++CONFIG proxy.config.log.common_log_enabled INT 0
++CONFIG proxy.config.log.common_log_is_ascii INT 1
++CONFIG proxy.config.log.common_log_name STRING common
++CONFIG proxy.config.log.common_log_header STRING NULL
++CONFIG proxy.config.log.extended_log_enabled INT 0
++CONFIG proxy.config.log.extended_log_is_ascii INT 0
++CONFIG proxy.config.log.extended_log_name STRING extended
++CONFIG proxy.config.log.extended_log_header STRING NULL
++CONFIG proxy.config.log.extended2_log_enabled INT 0
++CONFIG proxy.config.log.extended2_log_is_ascii INT 1
++CONFIG proxy.config.log.extended2_log_name STRING extended2
++CONFIG proxy.config.log.extended2_log_header STRING NULL
++CONFIG proxy.config.log.separate_icp_logs INT 0
++CONFIG proxy.config.log.separate_host_logs INT 0
++   # Log collation allows you to do "remote logging"
++LOCAL proxy.local.log.collation_mode INT 0
++CONFIG proxy.config.log.collation_host STRING NULL
++CONFIG proxy.config.log.collation_port INT 8085
++CONFIG proxy.config.log.collation_secret STRING foobar
++CONFIG proxy.config.log.collation_host_tagged INT 0
++CONFIG proxy.config.log.collation_retry_sec INT 5
++CONFIG proxy.config.log.rolling_enabled INT 3
+ CONFIG proxy.config.log.rolling_interval_sec INT 86400
+-CONFIG proxy.config.log.rolling_size_mb INT 10
++CONFIG proxy.config.log.rolling_offset_hr INT 0
++CONFIG proxy.config.log.rolling_size_mb INT 6000
+ CONFIG proxy.config.log.auto_delete_rolled_files INT 1
+-
++CONFIG proxy.config.log.sampling_frequency INT 1
++##############################################################################
++#
++# Reverse Proxy
++#
++##############################################################################
++CONFIG proxy.config.reverse_proxy.enabled INT 1
++CONFIG proxy.config.header.parse.no_host_url_redirect STRING NULL
+ ##############################################################################
+-# These settings control remapping, and if the proxy allows (open) forward proxy or not. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#url-remap-rules
+-#    https://docs.trafficserver.apache.org/en/latest/reference/configuration/remap.config.en.html
++#
++# URL Remap Rules
++#
+ ##############################################################################
++CONFIG proxy.config.url_remap.filename STRING remap.config
++CONFIG proxy.config.url_remap.default_to_server_pac INT 0
++CONFIG proxy.config.url_remap.default_to_server_pac_port INT -1
++   # To enable forward proxy, you must turn off remap_required
+ CONFIG proxy.config.url_remap.remap_required INT 1
+-    # https://docs.trafficserver.apache.org/records.config#proxy-config-url-remap-pristine-host-hdr
+-CONFIG proxy.config.url_remap.pristine_host_hdr INT 0
+-
++   # Pristine host header is the "original" (request) header. Make sure your
++   # origin expects them in reverse proxy.
++CONFIG proxy.config.url_remap.pristine_host_hdr INT 1
+ ##############################################################################
+-# SSL Termination. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#client-related-configuration
+-#    https://docs.trafficserver.apache.org/en/latest/reference/configuration/ssl_multicert.config.en.html
++#
++# SSL Termination
++#
+ ##############################################################################
++   # The number of SSL threads is a multiplier of number of CPUs and
++   # proxy.config.exec_thread.autoconfig.scale by default. You can
++   # override that here (set it to a non-zero value).
++CONFIG proxy.config.ssl.number.threads INT 0
++   # The following three variables can be
++   # set to 0 to disable SSLv2, SSLv3, and/or TLSv1.
++   # SSLv2 is disabled by default for security concern.
++CONFIG proxy.config.ssl.SSLv2 INT 0
++CONFIG proxy.config.ssl.SSLv3 INT 0
++CONFIG proxy.config.ssl.TLSv1 INT 1
++CONFIG proxy.config.ssl.TLSv1_1 INT 1
++CONFIG proxy.config.ssl.TLSv1_2 INT 1
++
++  # client's SSL protocols
++CONFIG proxy.config.ssl.client.SSLv2 INT 0
++CONFIG proxy.config.ssl.client.SSLv3 INT 0
++CONFIG proxy.config.ssl.client.TLSv1 INT 1
++CONFIG proxy.config.ssl.client.TLSv1_1 INT 1
++CONFIG proxy.config.ssl.client.TLSv1_2 INT 1
++
++   # The following two variables control the Cipher Suite traffic Server
++   # uses for HTTPS connnections and whether to prefer the client
++   # selected (default) or the server selected
++   # Our default SSL Cipher Suite tries to be reasonably fast and strong.
++CONFIG proxy.config.ssl.server.cipher_suite STRING ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA384:AES128-GCM-SHA256:AES256-GCM-SHA384:ECDHE-RSA-RC4-SHA:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:RC4-SHA:RC4-MD5:AES128-SHA:AES256-SHA:DES-CBC3-SHA!SRP:!DSS:!PSK:!aNULL:!eNULL:!SSLv2
++CONFIG proxy.config.ssl.client.cipher_suite STRING NULL
++   #
++   # NOTICE: proxy.config.ssl.server.honor_cipher_order options are backawrds.
++   # zero enables and one disables.  See TS-2370
++   #
++CONFIG proxy.config.ssl.server.honor_cipher_order INT 1
++   # Control if SSL should perform content compression or not
++CONFIG proxy.config.ssl.compression INT 0
++   # Client certification level should be:
++   # 0 no client certificates
++   # 1 client certificates optional
++   # 2 client certificates required
++CONFIG proxy.config.ssl.client.certification_level INT 0
++   # Server cert chain filename is the name of the global cert chain file
++   # that is added to every cert in ssl_multicert.config. This file is only
++   # loaded if there are configurations in ssl_multicert.config.
++CONFIG proxy.config.ssl.server.cert_chain.filename STRING NULL
++   # This is the path that SSL certificates files are relative to. Certificate
++   # names specified in ssl_multicert.config will be located relative to this path.
++CONFIG proxy.config.ssl.server.cert.path STRING conf/trafficserver
++   # If any private key is not contained in the certificate file, you must
++   # fill in the private key path. Private key names specified in
++   # ssl_multicert.config will be located relative to this path.
++CONFIG proxy.config.ssl.server.private_key.path STRING conf/trafficserver
++   # The CA file name and path are the
++   # certificate authority certificate that
++   # client certificates will be verified against.
++CONFIG proxy.config.ssl.CA.cert.filename STRING NULL
++CONFIG proxy.config.ssl.CA.cert.path STRING conf/trafficserver
++   ################################
++   # client related configuration #
++   ################################
+ CONFIG proxy.config.ssl.client.verify.server INT 0
++   # Fill in private key file and path only if the client's
++   # private key is not contained in the client certificate file.
++   # The CA file name and path are the
++   # certificate authority certificate that
++   # server certificates will be verified against.
++CONFIG proxy.config.ssl.cert.load_elevated INT 1
++
++CONFIG proxy.config.ssl.client.cert.filename STRING NULL
++CONFIG proxy.config.ssl.client.cert.path STRING conf/trafficserver
++
++CONFIG proxy.config.ssl.client.private_key.filename STRING NULL
++CONFIG proxy.config.ssl.client.private_key.path STRING conf/trafficserver
++
+ CONFIG proxy.config.ssl.client.CA.cert.filename STRING NULL
+-CONFIG proxy.config.ssl.server.cipher_suite STRING ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA384:AES128-GCM-SHA256:AES256-GCM-SHA384:ECDHE-RSA-RC4-SHA:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:RC4-SHA:RC4-MD5:AES128-SHA:AES256-SHA:DES-CBC3-SHA!SRP:!DSS:!PSK:!aNULL:!eNULL:!SSLv2
++CONFIG proxy.config.ssl.client.CA.cert.path STRING conf/trafficserver
++
++CONFIG proxy.config.ssl.hsts_max_age INT -1
++CONFIG proxy.config.ssl.hsts_include_subdomains INT 0
++CONFIG proxy.config.ssl.allow_client_renegotiation INT 0
++CONFIG proxy.config.ssl.session_cache INT 1
++
++CONFIG proxy.config.ssl.session_cache.size INT 512000
++CONFIG proxy.config.ssl.session_cache.timeout INT 7200
++CONFIG proxy.config.ssl.max_record_size INT 0
++   ###############################
++   # OCSP Stapling Configuration #
++   ###############################
++CONFIG proxy.config.ssl.ocsp.enabled INT 0
++
++CONFIG proxy.config.ssl.disable_single_dh_use INT 0
+ 
+ ##############################################################################
+-# ICP Configuration. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#icp-configuration
+-#    https://docs.trafficserver.apache.org/en/latest/reference/configuration/icp.config.en.html
++#
++# ICP Configuration. NOTE! ICP is currently broken NOTE!
++#
+ ##############################################################################
++   # icp modes
++   #   enabled=0 ICP disabled
++   #   enabled=1 Allow receive of ICP queries
++   #   enabled=2 Allow send/receive of ICP queries
+ CONFIG proxy.config.icp.enabled INT 0
++CONFIG proxy.config.icp.icp_interface STRING eth0
++CONFIG proxy.config.icp.icp_port INT 3130
++CONFIG proxy.config.icp.multicast_enabled INT 0
++CONFIG proxy.config.icp.query_timeout INT 2
++##############################################################################
++#
++# Scheduled Update Configuration
++#
++##############################################################################
++CONFIG proxy.config.update.enabled INT 0
++CONFIG proxy.config.update.force INT 0
++CONFIG proxy.config.update.retry_count INT 10
++CONFIG proxy.config.update.retry_interval INT 2
++CONFIG proxy.config.update.concurrent_updates INT 100
++##############################################################################
++#
++# Socket send/recv buffer sizes (0 == don't call setsockopt() )
++#
++##############################################################################
++   # out: proxy -> os connection
++   # in : ua -> proxy connection
++CONFIG proxy.config.net.sock_send_buffer_size_in INT 262144
++CONFIG proxy.config.net.sock_recv_buffer_size_in INT 0
++CONFIG proxy.config.net.sock_send_buffer_size_out INT 0
++CONFIG proxy.config.net.sock_recv_buffer_size_out INT 0
++##############################################################################
++#
++# User Overridden Configurations Below
++#
++##############################################################################
++CONFIG proxy.config.core_limit INT -1
++CONFIG proxy.config.http.global_user_agent_header STRING NULL
++CONFIG proxy.config.exec_thread.affinity INT 0
++
++# Bug 3065494 - turning off stack traces in traffic.out can help when 
++# cores aren't being generated.
++CONFIG proxy.config.stack_dump_enabled INT 1
++
++# yapache sets cache-control: private unless requests have Via: YahooTrafficServer
++CONFIG proxy.config.http.request_via_str STRING YahooTrafficServer
++
++# Bug 6892981
++CONFIG proxy.config.http.response_via_str STRING ApacheTrafficServer
++
++# Bug 5524407
++CONFIG proxy.config.net.listen_backlog INT 16384
++
++# Bug 6633547
++CONFIG proxy.config.http.cache.max_open_write_retries INT 1
++
++# Bug 6681354
++CONFIG proxy.config.http.keep_alive_post_out INT 0
++CONFIG proxy.config.http.origin_max_connections INT 0
++CONFIG proxy.config.net.sock_option_flag_out INT 0
++CONFIG proxy.config.net.sock_linger_enabled_out INT 0
++CONFIG proxy.config.net.sock_linger_timeout_out INT 0
++CONFIG proxy.config.http.server_max_connections INT 0
++
++# Bug 6638460
++CONFIG proxy.config.http.cache.ignore_accept_mismatch INT 0
++
++# Bug 6723917
++CONFIG proxy.config.http.origin_min_keep_alive_connections INT 0
++
++CONFIG proxy.config.http.send_100_continue_response INT 0
++
++# Bug 6674492
++CONFIG proxy.config.http.cache.max_open_read_retries INT -1
++CONFIG proxy.config.http.cache.open_read_retry_time INT 0
++
++# Bug 6757290
++CONFIG proxy.config.http.redirection_enabled INT 0
++CONFIG proxy.config.http.number_of_redirections INT 1
++
++# Bug 6856375
++CONFIG proxy.config.http.redirect_host_no_port INT 0
++
++# Bug 6742819 & Bug 6773975
++CONFIG proxy.config.diags.output.error STRING SL
++CONFIG proxy.config.diags.output.fatal STRING SL
++CONFIG proxy.config.diags.output.emergency STRING SL
++
++# Bug 6764071
++CONFIG proxy.config.http.cache.allow_empty_doc INT 0
++
++# TS-1375
++CONFIG proxy.config.net.default_inactivity_timeout INT 300
++
++# TS-2490, Bug 6739733
++CONFIG proxy.config.cop.init_sleep_time INT 0
++
++# Bug 6903377
++CONFIG proxy.config.spdy.enabled INT 0
+ 
+ ##############################################################################
+-# Debugging. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#diagnostic-logging-configuration
++#
++# Debugging
++#
+ ##############################################################################
++  # Uses a regular expression to match the debugging topic name, performance
++  # will be affected!
+ CONFIG proxy.config.diags.debug.enabled INT 0
+ CONFIG proxy.config.diags.debug.tags STRING http.*|dns.*
+-# ToDo: Undocumented
++  # Great for tracking down memory leaks, but you need to use the
++  # ink allocators
+ CONFIG proxy.config.dump_mem_info_frequency INT 0
+-CONFIG proxy.config.http.slow.log.threshold INT 0
+ 
++  # Log the source code location of diagnostic messages.
++CONFIG proxy.config.diags.show_location INT 0
+ ##############################################################################
+-# These are necessary (for now) to keep traffic_manager/_cop happy.
++#
++# Configuration for Reclaimable InkFreeList memory pool
++#
++# NOTE: The following options are meaningfull only when Traffic Server is
++#       compiled with the following option to configure:
++#
++#           --enable-reclaimable-freelist
++#
+ ##############################################################################
+-CONFIG proxy.config.proxy_name STRING ci14.mail.corp.bf1.yahoo.com
+-CONFIG proxy.config.admin.user_id STRING nobody
+-CONFIG proxy.config.log.logfile_dir STRING logs/trafficserver
+-CONFIG proxy.config.output.logfile STRING traffic.out
++CONFIG proxy.config.allocator.enable_reclaim INT 1
++  # The value of reclaim_factor should be in the 0.0 to 1.0 range. Allocators
++  # use it to calculate size of unused memory, which is used to determine when
++  # to reclaim memory. The larger the value, the more aggressive reclaims.
++CONFIG proxy.config.allocator.reclaim_factor FLOAT 0.300000
++  # Allocator will reclaim memory only when it continuously satisfy the reclaim
++  # condition for max_overage continuous checks.
++CONFIG proxy.config.allocator.max_overage INT 3
++  #  For debugging, enable debug_filter, which is a bit-map with these fields:
++  #     bit 0: reclaim memory in ink_freelist_new
++  #     bit 1: allocate memory from partial-free Chunks(if exist) or OS
++CONFIG proxy.config.allocator.debug_filter INT 0
+ 
+ ##############################################################################
+-# Cluster Subsystem. Docs:
+-#    https://docs.trafficserver.apache.org/records.config#cluster
++#
++# Slow Log
++#
+ ##############################################################################
+-LOCAL proxy.local.cluster.type INT 3
+-CONFIG proxy.config.cluster.ethernet_interface STRING lo
+-CONFIG proxy.config.cluster.cluster_port INT 8086
+-CONFIG proxy.config.cluster.rsport INT 8088
+-CONFIG proxy.config.cluster.mcport INT 8089
+-CONFIG proxy.config.cluster.mc_group_addr STRING 224.0.1.37
+-
++  # Log any request that takes more then x number of milliseconds, needs
++  # to be > 0 to be enabled
++CONFIG proxy.config.http.slow.log.threshold INT 0
+ ##############################################################################
+-# Extra Yahoo ATS Defaults
++#
++# Thread pool for "misc" tasks, plugins etc. 2 is a good minimum.
++#
+ ##############################################################################
+-CONFIG proxy.config.ssl.session_cache.size    INT 512000
+-CONFIG proxy.config.ssl.session_cache.timeout INT 7200
+-CONFIG proxy.config.ssl.max_record_size       INT 0
+-CONFIG proxy.config.net.default_inactivity_timeout INT 300
++CONFIG proxy.config.task_threads INT 2
++##############################################################################
++#
++# Do your plugins need root permissions during initialization and destruction
++#
++##############################################################################
++CONFIG proxy.config.plugin.load_elevated INT 0
+--- var/yinst/packages/ats-5.0.1_73/conf/trafficserver/remap.config	2014-12-16 19:01:18.000000000 +0000
++++ conf/trafficserver/remap.config	2016-02-18 23:37:00.867001518 +0000
+@@ -1,192 +1 @@
+-#
+-#  URL Remapping Config File
+-#
+-# Using remap.config allows you to accomplish two things:
+-#
+-#  1) Rewrite a URL (from the client) before sending it to the Origin Server.
+-#  2) Protect the proxy server, to only allow certain requests.
+-#
+-#  With the default configurations, at least one remap rule is required. This
+-#  can be relaxed with the following configuration in records.config:
+-#
+-#   CONFIG proxy.config.url_remap.remap_required INT 0
+-#
+-# Be aware, doing so makes the proxy a generic, open-relay!
+-#
+-#  The format is:
+-#      <map_type> client-URL origin-server-URL <tag_value> <filtering>
+-#
+-# Where client-URL and origin-server-URL are both of the format
+-#    <scheme>://<host>:<port>/<path_prefix>
+-#
+-#  The <tag_value> directive is optional and can be different for different
+-#  types of <map_type>. The <filtering arguments> are optional ACL-like
+-#  arguments unique for each remap rule
+-#
+-#  Six different types of mappings are possible:
+-#     map
+-#     map_with_referer
+-#     map_with_recv_port
+-#     reverse_map
+-#     redirect
+-#     redirect_temporary
+-#
+-#  Each of these map types can be prefixed with the string 'regex_' to indicate
+-#  that the rule will have regular expression strings. See the last part of
+-#  this description for more information on regex support.
+-#
+-#  The 'map' mapping is the most straightforward.  Requests that match the
+-#  client-URL are rewritten into the origin-server-URL. The user agent will see
+-#  the page on the remapped URL, but will not be notified of the address
+-#  change.
+-#
+-#  The 'map_with_referer' is an extended version of 'map', which can be used to
+-#  activate the so-called "deep linking protection" feature available in
+-#  Apache Traffic Server.
+-#
+-#  The 'map_with_recv_port' is exactly like 'map' except that it uses the port
+-#  at which the request was received to perform the mapping instead of the port
+-#  present in the request. When present, 'map_with_recv_port' mappings are
+-#  checked first. If there is a match, then it is chosen without evaluating the
+-#  "regular" forward mapping rules.
+-#
+-#  The 'reverse_map' mapping is used to rewrite location headers sent by the
+-#  origin server.  The 'redirect' mapping creates a permanent redirect message
+-#  and informs the browser of the URL change.
+-#
+-#  The 'redirect_temporary' mapping acts in the same way but tells the browser
+-#  that this redirect is only temporary.  We need to map the URL in reverse
+-#  proxy mode so that user agents know to contact Traffic Server and not
+-#  attempt to contact the Origin Server directly.
+-#
+-#  For example, you can set up a reverse proxy for www.example.com with the
+-#  real content situated at server1.example.com with the rules:
+-#
+-#    map          http://www.example.com/      http://server1.example.com/
+-#    reverse_map  http://server1.example.com/  http://www.example.com/
+-#
+-#  Or you could permanently redirect users trying to access www.oldserver.com
+-#  to www.newserver.com with the following rule:
+-#
+-#    redirect	http://www.oldserver.com/    http://www.newserver.com
+-#
+-#  If the redirect is only temporary, you want to only temporarily remap the
+-#  URL.  You could use the following rule to divert users away from a failed
+-#  server:
+-#
+-#  redirect_temporary http://broken.firm.com http://working.firm.com
+-#
+-#  In order to use "deep linking protection" Traffic Server's feature, the
+-#  'map_with_referer' mapping scheme must be used. In general, the format of is
+-#  the following:
+-#
+-#     map_with_referer client-URL origin-server-URL redirect-URL regex1 [regex2 ...]
+-#
+-#  'redirect-URL' is a redirection URL specified according to RFC 2616 and can
+-#  contain special formatting instructions for run-time modifications of the
+-#  resulting redirection URL.  All regexes Perl compatible  regular expressions,
+-#  which describes the content of the "Referer" header which must be
+-#  verified. In case an actual request does not have "Referer" header or it
+-#  does not match with referer regular expression, the HTTP request will be
+-#  redirected to 'redirect-URL'.
+-#
+-#  At least one regular expressions must be specified in order to activate
+-#  'deep linking protection'.  There are limitations for the number of referer
+-#  regular expression strings - 2048.  In order to enable the 'deep linking
+-#  protection' feature in Traffic Server, configure records.config with:
+-#
+-#    CONFIG proxy.config.http.referer_filter INT 1
+-#
+-#  In order to enable run-time formatting for redirect0URL, configure
+-#
+-#    CONFIG proxy.config.http.referer_format_redirect INT 1
+-#
+-#  When run-time formatting for redirect-URL was enabled the following format
+-#  symbols can be used:
+-#
+-#    %r - to substitute original "Referer" header string
+-#    %f - to substitute client-URL from 'map_with_referer' record
+-#    %t - to substitute origin-server-URL from 'map_with_referer' record
+-#    %o - to substitute request URL to origin server, which was created a
+-#         the result of a mapping operation
+-#
+-#  Note: There is a special referer type "~*" that can be used in order to
+-#  specify that the Referer header is optional in the request.  If "~*" referer
+-#  was used in map_with_referer mapping, only requests with Referer header will
+-#  be verified for validity.  If the "~" symbol was specified before referer
+-#  regular expression, it means that the request with a matching referer header
+-#  will be redirected to redirectURL. It can be used to create a so-called
+-#  negative referer list.  If "*" was used as a referer regular expression -
+-#  all referers are allowed.  Various combinations of "*" and "~" in a referer
+-#  list can be used to create different filtering rules.
+-#
+-#  Examples:
+-#    map_with_referer http://y.foo.bar.com/x/yy/  http://foo.bar.com/x/yy/ http://games.bar.com/new_games .*\.bar\.com www.bar-friends.com
+-#
+-#  Explanation: Referer header must be in the request, only ".*\.bar\.com"
+-#  and "www.bar-friends.com" are allowed.
+-#
+-#    map_with_referer http://y.foo.bar.com/x/yy/  http://foo.bar.com/x/yy/ http://games.bar.com/new_games * ~.*\.evil\.com
+-#
+-#  Explanation: Referer header must be in the request but all referers are
+-#  allowed except ".*\.evil\.com".
+-#
+-#    map_with_referer http://y.foo.bar.com/x/yy/  http://foo.bar.com/x/yy/ http://games.bar.com/error ~* * ~.*\.evil\.com
+-#
+-#  Explanation: Referer header is optional. However, if Referer header exists,
+-#  only request from ".*\.evil\.com" will be redirected to redirect-URL.
+-#
+-#  There are optional filtering arguments that can be specified at the end of the mapping definition line:
+-#
+-#    @action=allow|deny
+-#    @src_ip=IP-address
+-#    @method=HTTP method string (CONNECT|DELETE|GET|HEAD|ICP_QUERY|OPTIONS|POST|PURGE|PUT|TRACE|PUSH)
+-#    @plugin=<plugin_path>
+-#    @pparam=<plugin_param>
+-#
+-#  There is no limitation for the number of filtering arguments.
+-#
+-#  Example:
+-#    map http://foo.cow.com/ http://bar.cow.com @src_ip=10.72.118.51-10.72.118.62 @method=GET @method=DELETE @src_ip=192.168.0.1-192.168.0.254 @action=allow @method=PUT
+-#
+-#  Traffic Server supports WebSockets but it must be enabled via remap. WebSocket upgrades are automatically
+-#  detected when there exists a remap rule containing a ws:// scheme.
+-#
+-#  Example:
+-#     map ws://bar.com/ ws://foo.com/
+-#
+-#  Explaination: When a request comes in with the appropriate upgrade headers, Traffic Server will use this
+-#   remap rule in an attempt to establish and maintain a websocket connection.
+-#
+-#  Named filters can be created and applied to blocks of mappings
+-#  using the .definefilter, .activatefilter, and .deactivatefilter
+-#  directives. Named filters must be defined using .definefilter
+-#  before being used. Once defined, .activatefilter can used to
+-#  activate a filter for all mappings that follow until deactivated
+-#  with .deactivatefilter.
+-#
+-#  Example:
+-#    .definefilter disable_delete_purge @action=deny @method=delete @method=purge
+-#    .definefilter internal_only @action=allow @src_ip=192.168.0.1-192.168.0.254 @src_ip=10.0.0.1-10.0.0.254
+-#
+-#    .activatefilter disable_delete_purge
+-#
+-#    map http://foo.example.com/ http://bar.example.com/
+-#
+-#    .activatefilter internal_only
+-#    map http://www.example.com/admin http://internal.example.com/admin
+-#    .deactivatefilter internal_only
+-#
+-#    map http://www.example.com/ http://internal.example.com/
+-#
+-#
+-#  Regex support: Regular expressions can be specified in the rules with the
+-#  following limitations:
+-#
+-#  1) Only the host field can have regexes - the scheme, port and other
+-#     fields cannot.
+-#  2) The number of capturing sub-patterns is limited to 9;
+-#     this means $0 through $9 can be used as substitution place holders ($0
+-#     will be the entire input string)
+-#  3) The number of substitutions in the expansion string is limited to 10.
+-#
++map https://buildr.corp.yahoo.com:443/ http://127.0.0.1:80/
+--- var/yinst/packages/ats-5.0.1_73/conf/trafficserver/ssl_multicert.config	2014-12-16 19:01:18.000000000 +0000
++++ conf/trafficserver/ssl_multicert.config	2016-02-18 23:37:00.471001518 +0000
+@@ -28,7 +28,7 @@
+ #   square brackets if they have a port, eg, [::1]:80.
+ #
+ # ssl_key_name=FILENAME
+-#   The name of the file containing the private key for this certificate.
++#   The name of the file containg the private key for this certificate.
+ #   If the key is contained in the certificate file, this field can be
+ #   omitted.
+ #
+@@ -40,16 +40,18 @@
+ #   The name of the file containing the TLS certificate. This is the
+ #   only field that is required to be present.
+ #
+-# ssl_key_dialog=[builtin|exec:/path/to/program]
+-#   Method used to provide a pass phrase for encrypted private keys.
+-#   Two options are supported: builtin and exec
+-#     builtin - Requests passphrase via stdin/stdout. Useful for debugging.
+-#     exec: - Executes a program and uses the stdout output for the pass
+-#       phrase.
++# ssl_ticket_enabled=BOOL
++#   Can be 0 or 1; Default to 0;
++#
++# ticket_key_name=FILENAME, 
++#   The ticket name is valid/required if ssl_ticket_enabled = 1
++#
+ #
+ # Examples:
+ #   ssl_cert_name=foo.pem
+ #   dest_ip=*	ssl_cert_name=bar.pem ssl_key_name=barKey.pem
+ #   dest_ip=209.131.48.79	ssl_cert_name=server.pem ssl_key_name=serverKey.pem
+ #   dest_ip=10.0.0.1:99 ssl_cert_name=port99.pem
+-#   ssl_cert_name=foo.pem ssl_key_dialog="exec:/usr/bin/mypass foo 'ba r'"
++#   dest_ip=* ssl_cert_name=bar.pem ssl_ticket_enabled=1 ticket_key_name=<filename>
++#   ssl_multicert_config="dest_ip=* ssl_cert_name=bar.pem ssl_key_name=barKey.pem ssl_ticket_enabled=1 ticket_key_name=key;dest_ip=10.0.0.1:8080 ssl_cert_name=bar1.pem;ssl_cert_name=bar2.pem ssl_key_name=key2.pem"
++dest_ip=* ssl_cert_name=server.crt ssl_key_name=server.key
+--- var/yinst/packages/ats-5.0.1_73/conf/trafficserver/storage.config	2014-12-16 19:03:07.000000000 +0000
++++ conf/trafficserver/storage.config	2016-02-18 23:37:00.500001518 +0000
+@@ -46,4 +46,4 @@
+ # A small default cache (256MB). This is set to allow for the regression test to succeed
+ # most likely you'll want to use a larger cache. And, we definitely recommend the use
+ # of raw devices for production caches.
+-share/trafficserver 20GB
++# http_cache disabled -- no disk storage allocated
+--- /home/y/var/yinst/tmp/yinst.26791.save/yapache-2.2.26_6/conf/webctl/yapache.conf	2016-03-02 19:05:30.794001518 +0000
++++ conf/webctl/yapache.conf	2016-02-18 23:37:00.820001518 +0000
+@@ -15,7 +15,7 @@
+ #
+ yapache = {
+   ## please change the following to your own email address
+-  admin = { 'abhatia@yahoo-inc.com' },
++  admin = { 'tortuga@yahoo-inc.com' },
+   start_cmd = {
+       '/home/y/bin64/yapache22 -DHTTP -f /home/y/conf/yapache22/yapache.conf'
+   },
+--- /home/y/var/yinst/tmp/yinst.26791.save/yapache-2.2.26_6/conf/yapache22/yapache.conf	2016-03-02 19:05:30.826001518 +0000
++++ conf/yapache22/yapache.conf	2016-02-18 23:37:00.602001518 +0000
+@@ -53,7 +53,7 @@
+ ScoreBoardFile	logs/yapache/yapache.scoreboard
+ 
+ ServerName	prod-buildr.corpapps.corp.gq1.yahoo.com
+-ServerAdmin	abhatia@yahoo-inc.com
++ServerAdmin	tortuga@yahoo-inc.com
+ 
+ Listen		0.0.0.0:80
+ 

@@ -1,0 +1,17 @@
+---
+ - name: Creating httpd service
+   hosts: localhost
+   vars_files:
+     - ../vars/main.yml
+   tasks:
+     - name: Install httpd package
+       yum: name=httpd state=latest
+
+     - name: copy over the apache template
+       template: src=../templates/apache.conf.j2 dest=/home/abhatia/apache.conf
+
+     - replace: dest=/etc/httpd/conf/httpd.conf regexp='^(User|Group)\s+apache\s*$' replace='\1 {{test_apache_user}}'
+
+     - name: Start the httpd service
+       service: name=httpd enabled=yes state=started
+

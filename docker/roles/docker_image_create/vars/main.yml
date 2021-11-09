@@ -1,0 +1,5 @@
+---
+ docker_image: "ylinux6.5.0"
+ test_name: "Ankur"
+ test_hostname: "docker01"
+ test_apache_user: "nobody"

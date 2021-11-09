@@ -1,0 +1,34 @@
+---
+ 
+  - name: Copy the tar file
+    copy: src=ylinux6.5.0-base.tar dest=/home/abhatia/ylinux6.5.0-base.tar owner=abhatia group=users force=no
+
+#  - name: command to check if the image already exists
+#    shell: sudo docker images | grep ylinux6.5.0 | cut -f1 -d ' '
+#    register: image_exists
+
+#  - name: command to check if the buildr image already exists
+#    shell: sudo docker images | grep ylinux_stage_buildr | cut -f1 -d ' '
+#    register: image_buildr_exists
+
+
+  - name: Copy the buildr tar file
+    copy: src=ylinux_stage_buildr.tar dest=/home/abhatia/ylinux_stage_buildr.tar owner=abhatia group=users force=no
+
+  - name: create a docker image from an existing image
+    shell: sudo docker load --input /home/abhatia/ylinux6.5.0-base.tar 
+    #when: "'{{ docker_image }}' not in image_exists.stdout" 
+ 
+  - name: create a docker image from an existing image
+    shell: sudo docker load --input /home/abhatia/ylinux_stage_buildr.tar
+    #when: "'{{ docker_image }}' not in image_buildr_exists.stdout"
+ 
+ 
+  - name: copy the dockerfile
+    copy: src=Dockerfile dest=/home/abhatia/Dockerfile owner=abhatia group=users 
+
+  - name: copy playbooks
+    synchronize: src=/home/abhatia/playbooks/docker_container  dest=/home/abhatia/playbooks rsync_opts="--exclude=ylinux6.5.0-base.tar --exclude=ylinux_stage_buildr.tar"
+
+  - name: build docker container
+    shell: sudo docker build -f /home/abhatia/Dockerfile -t ylinux_buildr:v1 . 
