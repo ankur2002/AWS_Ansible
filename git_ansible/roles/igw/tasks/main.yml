@@ -1,0 +1,35 @@
+---
+    - name: Create VPC Internet Gateway
+      ec2_vpc_igw:
+         vpc_id:  "{{ item.value.vpc_id }}"
+         state: present
+         region: "{{ region }}"
+         tags: "{{ item.value.tags }}"
+      with_dict: "{{ igw_dict }}"
+      register: ec2_vpc_igw
+
+
+    - name: Get Staging IGW ID
+      ec2_vpc_igw_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'stage-igw'
+      register: igw_stage
+
+    - name: Get Production IGW ID
+      ec2_vpc_igw_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'prod-igw'
+      register: igw_prod
+
+
+    - name: IGW Prod ID
+      debug:
+        var: igw_prod['internet_gateways'][0]['internet_gateway_id']
+
+
+    - name: IGW Stage ID
+      debug:
+       var: igw_stage['internet_gateways'][0]['internet_gateway_id']
+

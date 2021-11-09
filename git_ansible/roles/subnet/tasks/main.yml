@@ -1,0 +1,86 @@
+---
+    - name: Create new subnet
+      ec2_vpc_subnet:
+         region: "{{ region }}"
+         az: "{{ item.value.az }}"  
+         cidr: "{{ item.value.cidr }}"
+         vpc_id: "{{ item.value.vpc_id }}"
+         resource_tags: "{{ item.value.resource_tags }}"
+         map_public: "{{ item.value.map_public }}"
+         state: present
+      with_dict: "{{ subnet_dict }}"
+      register: ec2_vpc_subnet
+
+
+    - name: Show subnet var
+      debug:
+        var: ec2_vpc_subnet
+
+    - name: Save prod subnet 1 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"   
+           "tag:Name": "prod-subnet-1"
+      register: prod_subnet_1
+
+    - name: Save prod subnet 2 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+           "tag:Name": "prod-subnet-2"
+      register: prod_subnet_2
+
+    - name: Save prod subnet 3 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+           "tag:Name": "prod-subnet-3"
+      register: prod_subnet_3
+   
+    - name: Save prod subnet 4 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+           "tag:Name": "prod-subnet-4"
+      register: prod_subnet_4
+
+    - name: Save stage subnet 1 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+           "tag:Name": "stage-subnet-1"
+      register: stage_subnet_1
+ 
+    - name: Save stage subnet 2 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+           "tag:Name": "stage-subnet-2"
+      register: stage_subnet_2
+
+    - name: Save stage subnet 3 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+           "tag:Name": "stage-subnet-3"
+      register: stage_subnet_3
+ 
+    - name: Save stage subnet 4 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+           "tag:Name": "stage-subnet-4"
+      register: stage_subnet_4
+
+    - name: show value prod subnet 1 
+      debug:
+       var: prod_subnet_1['subnets'][0]['id']
+

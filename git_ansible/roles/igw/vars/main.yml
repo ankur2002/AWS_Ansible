@@ -1,0 +1,10 @@
+---
+igw_dict:
+  igw-7b8f7e13:
+    tags:
+      Name: prod-igw
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  igw-db8a7bb3:
+    tags:
+      Name: stage-igw
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"

@@ -1,0 +1,46 @@
+---
+    - name: Create ACL
+      ec2_vpc_nacl:
+         state: present
+         name: "{{ item.value.tags.Name }}"
+         region: "{{ region }}"
+         subnets: "{{ item.value.subnets }}"
+         vpc_id: "{{ item.value.vpc_id }}"
+         ingress: "{{ item.value.ingress }}"
+         egress: "{{ item.value.egress }}"
+         tags: "{{ item.value.tags }}"
+      with_dict: "{{ acl_dict }}"
+      register: ec2_vpc_nacl
+    
+    - name: Get Prod Primary NACL ID
+      ec2_vpc_nacl_facts:
+       region: "{{ region }}"
+       filters:
+         "tag:Name": 'prod-primary'
+      register: prod_primary_nacl
+
+    - name: Get Prod Proxy NACL ID
+      ec2_vpc_nacl_facts:
+       region: "{{ region }}"
+       filters:
+         "tag:Name": 'prod-proxy-nacl'
+      register: prod_proxy_nacl
+
+    - name: Get Stage Proxy NACL ID
+      ec2_vpc_nacl_facts:
+       region: "{{ region }}"
+       filters:
+         "tag:Name": 'stage-proxy-nacl'
+      register: stage_proxy_nacl
+
+    - name: Get Stage Test NACL ID
+      ec2_vpc_nacl_facts:
+       region: "{{ region }}"
+       filters:
+         "tag:Name": 'stage-test'
+      register: stage_test_nacl
+
+    - name: Stage Test NACL ID
+      debug:
+       var: stage_test_nacl['nacls'][0]['nacl_id']
+

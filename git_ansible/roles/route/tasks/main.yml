@@ -1,0 +1,71 @@
+---
+    - name: Create Routes 
+      ec2_vpc_route_table:
+         state: present
+         region: "{{ region }}"
+         subnets: "{{ item.value.subnets }}"         
+         vpc_id: "{{ item.value.vpc_id }}"
+         tags: "{{ item.value.tags }}"
+         routes: "{{ item.value.routes }}"
+      with_dict: "{{ route_dict }}"
+      register: ec2_vpc_route_table
+
+    - name: Get Production Route Table 1 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'prod-rt-1'
+      register: prod_rtb_1
+
+    - name: Get Production Route Table 2 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'prod-rt-2'
+      register: prod_rtb_1
+
+    - name: Get Production Route Table 3 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'prod-rt-3'
+      register: prod_rtb_3
+
+    - name: Get Production Route Table 4 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'prod-rt-4'
+      register: prod_rtb_4
+
+    - name: Get Staging Route Table 1 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'stage-rt-1'
+      register: stage_rtb_1
+
+    - name: Get Staging Route Table 2 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'stage-rt-2'
+      register: stage_rtb_2
+
+    - name: Get Staging Route Table 3 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'stage-rt-3'
+      register: stage_rtb_3
+
+    - name: Get Staging Route Table 4 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'stage-rt-4'
+      register: stage_rtb_4
+
+    - name: Show prod rtb 1
+      debug:
+       var: prod_rtb_1['route_tables'][0]['id']

@@ -1,0 +1,482 @@
+---
+acl_dict:
+  acl-4093cf28:
+    egress:
+    - - 1
+      - all
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - null
+      - null
+    ingress:
+    - - 1
+      - tcp
+      - allow
+      - 10.0.16.0/20
+      - null
+      - null
+      - 22
+      - 22
+    - - 2
+      - udp
+      - allow
+      - 10.0.16.0/20
+      - null
+      - null
+      - 514
+      - 514
+    - - 3
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 443
+      - 443
+    - - 4
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 5
+      - tcp
+      - allow
+      - 149.174.216.33/32
+      - null
+      - null
+      - 25
+      - 25
+    - - 6
+      - tcp
+      - allow
+      - 149.174.216.34/31
+      - null
+      - null
+      - 25
+      - 25
+    - - 7
+      - tcp
+      - allow
+      - 149.174.216.36/31
+      - null
+      - null
+      - 25
+      - 25
+    - - 8
+      - tcp
+      - allow
+      - 149.174.253.68/32
+      - null
+      - null
+      - 25
+      - 25
+    - - 9
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 22
+      - 22
+    - - 11
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 5601
+      - 5601
+    nacl_id: acl-4093cf28
+    subnets:
+    - "{{ stage_subnet_1['subnets'][0]['id'] }}"
+    tags:
+      Name: stage-proxy-nacl
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+  acl-69603c01:
+    egress:
+    - - 1
+      - all
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - null
+      - null
+    ingress:
+    - - 11
+      - all
+      - allow
+      - 14.141.6.224/28
+      - null
+      - null
+      - null
+      - null
+    - - 12
+      - all
+      - allow
+      - 213.229.137.64/28
+      - null
+      - null
+      - null
+      - null
+    - - 13
+      - all
+      - allow
+      - 213.152.6.112/28
+      - null
+      - null
+      - null
+      - null
+    - - 14
+      - all
+      - allow
+      - 31.154.61.16/28
+      - null
+      - null
+      - null
+      - null
+    - - 15
+      - all
+      - allow
+      - 199.167.109.192/27
+      - null
+      - null
+      - null
+      - null
+    - - 16
+      - all
+      - allow
+      - 163.44.18.64/29
+      - null
+      - null
+      - null
+      - null
+    - - 17
+      - all
+      - allow
+      - 70.35.221.32/28
+      - null
+      - null
+      - null
+      - null
+    - - 18
+      - all
+      - allow
+      - 87.241.41.112/28
+      - null
+      - null
+      - null
+      - null
+    - - 19
+      - all
+      - allow
+      - 27.123.32.0/24
+      - null
+      - null
+      - null
+      - null
+    - - 20
+      - all
+      - allow
+      - 31.154.0.0/18
+      - null
+      - null
+      - null
+      - null
+    - - 21
+      - all
+      - allow
+      - 46.228.35.0/24
+      - null
+      - null
+      - null
+      - null
+    - - 22
+      - all
+      - allow
+      - 34.213.196.129/32
+      - null
+      - null
+      - null
+      - null
+    - - 23
+      - all
+      - allow
+      - 67.195.88.10/31
+      - null
+      - null
+      - null
+      - null
+    - - 24
+      - all
+      - allow
+      - 69.147.64.0/18
+      - null
+      - null
+      - null
+      - null
+    - - 25
+      - all
+      - allow
+      - 77.238.128.0/18
+      - null
+      - null
+      - null
+      - null
+    - - 26
+      - all
+      - allow
+      - 91.82.219.0/24
+      - null
+      - null
+      - null
+      - null
+    - - 27
+      - all
+      - allow
+      - 77.238.128.0/18
+      - null
+      - null
+      - null
+      - null
+    - - 28
+      - all
+      - allow
+      - 91.82.219.0/24
+      - null
+      - null
+      - null
+      - null
+    - - 29
+      - all
+      - allow
+      - 98.175.194.82/32
+      - null
+      - null
+      - null
+      - null
+    nacl_id: acl-69603c01
+    subnets:
+    - "{{ prod_subnet_3['subnets'][0]['id'] }}"
+    tags:
+      Name: prod-proxy-nacl
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  acl-8c4619e4:
+    egress:
+    - - 1
+      - all
+      - allow
+      - 10.0.16.0/20
+      - null
+      - null
+      - null
+      - null
+    ingress:
+    - - 1
+      - tcp
+      - allow
+      - 10.0.16.0/20
+      - null
+      - null
+      - 22
+      - 22
+    - - 2
+      - udp
+      - allow
+      - 10.0.16.0/20
+      - null
+      - null
+      - 514
+      - 514
+    - - 4
+      - tcp
+      - allow
+      - 10.0.16.0/20
+      - null
+      - null
+      - 443
+      - 443
+    - - 5
+      - tcp
+      - allow
+      - 10.0.16.0/20
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 12
+      - tcp
+      - allow
+      - 149.174.216.33/32
+      - null
+      - null
+      - 25
+      - 25
+    - - 13
+      - tcp
+      - allow
+      - 149.174.216.34/31
+      - null
+      - null
+      - 25
+      - 25
+    - - 14
+      - tcp
+      - allow
+      - 149.174.216.36/31
+      - null
+      - null
+      - 25
+      - 25
+    - - 15
+      - tcp
+      - allow
+      - 149.174.253.68/32
+      - null
+      - null
+      - 25
+      - 25
+    - - 20
+      - tcp
+      - allow
+      - 10.0.16.0/20
+      - null
+      - null
+      - 5601
+      - 5601
+    nacl_id: acl-8c4619e4
+    subnets:
+    - "{{ stage_subnet_3['subnets'][0]['id'] }}"
+    tags:
+      Name: stage-test
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+  acl-915202f9:
+    egress:
+    - - 100
+      - all
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - null
+      - null
+    ingress:
+    - - 100
+      - all
+      - allow
+      - 10.0.16.0/20
+      - null
+      - null
+      - null
+      - null
+    nacl_id: acl-915202f9
+    subnets:
+    - "{{ stage_subnet_2['subnets'][0]['id'] }}"
+    - "{{ stage_subnet_4['subnets'][0]['id'] }}"
+    tags:
+      Name: stage-nacl-default
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+  acl-c55404ad:
+    egress:
+    - - 100
+      - all
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - null
+      - null
+    ingress:
+    - - 100
+      - all
+      - allow
+      - 10.0.0.0/20
+      - null
+      - null
+      - null
+      - null
+    nacl_id: acl-c55404ad
+    subnets:
+    - "{{ prod_subnet_2['subnets'][0]['id'] }}"
+    - "{{ prod_subnet_4['subnets'][0]['id'] }}"
+    tags:
+      Name: prod-nacl-default
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  acl-ca6834a2:
+    egress:
+    - - 10
+      - all
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - null
+      - null
+    ingress:
+    - - 10
+      - tcp
+      - allow
+      - 10.0.0.0/20
+      - null
+      - null
+      - 22
+      - 22
+    - - 11
+      - tcp
+      - allow
+      - 10.0.0.0/20
+      - null
+      - null
+      - 23
+      - 23
+    - - 20
+      - tcp
+      - allow
+      - 10.0.0.0/20
+      - null
+      - null
+      - 443
+      - 443
+    - - 21
+      - tcp
+      - allow
+      - 10.0.0.0/20
+      - null
+      - null
+      - 444
+      - 444
+    - - 25
+      - tcp
+      - allow
+      - 10.0.0.0/20
+      - null
+      - null
+      - 8443
+      - 8443
+    - - 50
+      - tcp
+      - allow
+      - 10.0.0.0/20
+      - null
+      - null
+      - 122
+      - 122
+    - - 63
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 1024
+      - 65535
+    nacl_id: acl-ca6834a2
+    subnets:
+    - subnet-b4630fdc
+    tags:
+      Name: prod-primary
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"

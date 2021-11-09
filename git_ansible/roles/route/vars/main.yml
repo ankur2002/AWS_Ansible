@@ -1,0 +1,90 @@
+---
+route_dict:
+  rtb-1f330577:
+    routes:
+    - dest: 10.0.16.0/20
+      gateway_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ nat_stage_2['result'][0]['nat_gateway_id'] }}"
+    subnets:
+    - "{{ stage_subnet_2['subnets'][0]['id'] }}"
+    tags:
+      Name: stage-rt-2
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+  rtb-20300648:
+    routes:
+    - dest: 10.0.0.0/20
+      gateway_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ nat_prod_1['result'][0]['nat_gateway_id'] }}"
+    subnets:
+    - "{{ prod_subnet_1['subnets'][0]['id'] }}"
+    tags:
+      Name: prod-rt-1
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  rtb-4333052b:
+    routes:
+    - dest: 10.0.0.0/20
+      gateway_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ igw_prod['internet_gateways'][0]['internet_gateway_id'] }}"
+    subnets:
+    - "{{ prod_subnet_4['subnets'][0]['id'] }}"
+    tags:
+      Name: prod-rt-4
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  rtb-48330520:
+    routes:
+    - dest: 10.0.16.0/20
+      gateway_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ igw_stage['internet_gateways'][0]['internet_gateway_id'] }}"
+    subnets:
+    - "{{ stage_subnet_4['subnets'][0]['id'] }}"
+    tags:
+      Name: stage-rt-4
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+  rtb-aa3107c2:
+    routes:
+    - dest: 10.0.0.0/20
+      gateway_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ nat_prod_2['result'][0]['nat_gateway_id'] }}"
+    subnets:
+    - "{{ prod_subnet_2['subnets'][0]['id'] }}"
+    tags:
+      Name: prod-rt-2
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  rtb-b25d6ada:
+    routes:
+    - dest: 10.0.16.0/20
+      gateway_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ igw_stage['internet_gateways'][0]['internet_gateway_id'] }}"
+    subnets:
+    - "{{ stage_subnet_3['subnets'][0]['id'] }}"
+    tags:
+      Name: stage-rt-3
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+  rtb-fa506792:
+    routes:
+    - dest: 10.0.0.0/20
+      gateway_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ igw_prod['internet_gateways'][0]['internet_gateway_id'] }}"
+    subnets:
+    - "{{ prod_subnet_3['subnets'][0]['id'] }}"
+    tags:
+      Name: prod-rt-3
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  rtb-fd320495:
+    routes:
+    - dest: 10.0.16.0/20
+      gateway_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ nat_stage_1['result'][0]['nat_gateway_id'] }}"
+    subnets:
+    - "{{ stage_subnet_1['subnets'][0]['id'] }}"
+    tags:
+      Name: stage-rt-1
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"

@@ -1,0 +1,48 @@
+---
+    - name: Create VPC NAT Gateway
+      ec2_vpc_nat_gateway:
+         subnet_id:  "{{ item.value.subnet_id }}"
+         state: present
+         region: "{{ region }}"
+         if_exist_do_not_create: True
+         validate_certs: no
+         #nat_gateway_id: "{{ item.value.nat_gateway_id }}"
+      with_dict: "{{ nat_dict }}"
+      register: ec2_vpc_nat_gateway
+
+
+    - name: Get Staging nat 1  ID
+      ec2_vpc_nat_gateway_facts:
+       region: "{{ region }}"
+       filters:
+        subnet-id: "{{ stage_subnet_1['subnets'][0]['id'] }}"
+      register: nat_stage_1
+
+    - name: Get Staging nat 2  ID
+      ec2_vpc_nat_gateway_facts:
+       region: "{{ region }}"
+       filters:
+        subnet-id: "{{ stage_subnet_2['subnets'][0]['id'] }}"
+      register: nat_stage_2
+
+    - name: Get Production nat 1 ID
+      ec2_vpc_nat_gateway_facts:
+       region: "{{ region }}"
+       filters:
+        subnet-id: "{{ prod_subnet_1['subnets'][0]['id'] }}"
+      register: nat_prod_1
+    
+    - name: Get Production nat 2 ID
+      ec2_vpc_nat_gateway_facts:
+       region: "{{ region }}"
+       filters:
+        subnet-id: "{{ prod_subnet_2['subnets'][0]['id'] }}"
+      register: nat_prod_2
+
+    - name: Nat Prod 1 ID
+      debug:
+        var: nat_prod_1['result'][0]['nat_gateway_id']
+
+    - name: sleep for 300 seconds and continue with play
+      wait_for: timeout=300
+      delegate_to: localhost

@@ -1,0 +1,58 @@
+---
+subnet_dict:
+  subnet-1f5a5052:
+    az: "{{ azc }}"
+    cidr: 10.0.18.0/24
+    map_public: false
+    resource_tags:
+      Name: stage-subnet-3
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+  subnet-3d5e5470:
+    az: "{{ azc }}"
+    cidr: 10.0.3.0/24
+    map_public: false
+    resource_tags:
+      Name: prod-subnet-4
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  subnet-b4630fdc:
+    az: "{{ aza }}"
+    cidr: 10.0.0.0/24
+    map_public: false
+    resource_tags:
+      Name: prod-subnet-1
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  subnet-be5f55f3:
+    az: "{{ azc }}"
+    cidr: 10.0.19.0/24
+    map_public: false
+    resource_tags:
+      Name: stage-subnet-4
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+  subnet-c358528e:
+    az: "{{ azc }}"
+    cidr: 10.0.2.0/24
+    map_public: false
+    resource_tags:
+      Name: prod-subnet-3
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  subnet-e57c108d:
+    az: "{{ aza }}"
+    cidr: 10.0.16.0/24
+    map_public: false
+    resource_tags:
+      Name: stage-subnet-1
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+  subnet-e57f138d:
+    az: "{{ aza }}"
+    cidr: 10.0.1.0/24
+    map_public: false
+    resource_tags:
+      Name: prod-subnet-2
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  subnet-e67c108e:
+    az: "{{ aza }}"
+    cidr: 10.0.17.0/24
+    map_public: false
+    resource_tags:
+      Name: stage-subnet-2
+    vpc_id: "{{ vpc_stage['vpcs'][0]['id'] }}"

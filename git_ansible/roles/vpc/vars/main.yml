@@ -1,0 +1,18 @@
+---
+vpc_dict:
+  vpc-8e1b6ae6:
+    cidr_block: 10.0.16.0/20
+    #dhcp_opts_id: dopt-599e1330
+    name: Stage
+    resource_tags:
+      Name: Stage
+      Environment: Stage
+    vpc_id: vpc-8e1b6ae6
+  vpc-bd1465d5:
+    cidr_block: 10.0.0.0/20
+    #dhcp_opts_id: dopt-599e1330
+    name: Production
+    resource_tags:
+      Environment: Production
+      Name: Production
+    vpc_id: vpc-bd1465d5

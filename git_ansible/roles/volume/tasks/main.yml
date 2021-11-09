@@ -1,0 +1,65 @@
+---
+      - name: Create Volume
+        ec2_vol:
+          state: present
+          region: "{{ region }}"
+          device_name: "{{ item.value.device_name }}"
+          volume_size: "{{ item.value.volume_size }}"
+          volume_type: "{{ item.value.volume_type }}"
+          tags: "{{ item.value.tags }}"
+          zone: "{{ item.value.zone }}"
+          encrypted: "{{item.value.encrypted }}"
+        with_dict: "{{ volume_dict }}"
+        register: ec2_vol
+
+      - name: Get Production Git Root Volume ID
+        ec2_vol_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'primary-git-root'
+        register: vol_prod_git_root
+
+      - name: Get Production Git Data Volume ID
+        ec2_vol_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'primary-git-vol'
+        register: vol_prod_git_data
+
+      - name: Get Staging Git Root Volume ID
+        ec2_vol_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'stage-test-root'
+        register: vol_stage_git_root
+
+      - name: Get Staging Git Data Volume ID
+        ec2_vol_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'stage-test-vol'
+        register: vol_stage_git_data
+
+      - name: Get Production Jump Host Volume ID
+        ec2_vol_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'prod-proxy'
+        register: vol_prod_jump
+
+      - name: Get Stage Jump Host Volume ID
+        ec2_vol_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'stage-proxy'
+        register: vol_stage_jump
+
+
+      - name: Volume Prod Jump
+        debug:
+          var: vol_prod_jump
+
+
+      - name: Volume Stage Jump
+        debug:
+         var: vol_stage_jump

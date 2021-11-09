@@ -1,0 +1,72 @@
+---
+ec2_dict:
+  i-04781ced260ee0891:
+    image: ami-8d958df6
+    state: present
+    instance_type: r4.4xlarge
+    key_name: boath
+    group_id: "{{ sg_stage_git['security_groups'][0]['group_id'] }}"
+    volumes:
+    - delete_on_termination: true
+      device_name: /dev/sda1
+      encrypted: true
+      iops: 600
+      volume_type: gp2
+    - delete_on_termination: false
+      device_name: /dev/sdb
+      encrypted: true
+      iops: 10000
+      volume_type: gp2
+    vpc_subnet_id: "{{ stage_subnet_1['subnets'][0]['id'] }}"
+    tags:
+      Name: git_stage
+  i-0aaf13c0f97cf974b:
+    image: ami-637cea11
+    state: present
+    instance_type: t2.small
+    key_name: boath
+    group_id: "{{ sg_stage_jump['security_groups'][0]['group_id'] }}"
+    volumes:
+    - delete_on_termination: false
+      device_name: /dev/xvda
+      encrypted: true
+      iops: 100
+      volume_type: gp2
+    vpc_subnet_id: "{{ prod_subnet_1['subnets'][0]['id'] }}"
+    tags: 
+      Name: stage_jump
+  i-0dd6a31b475136302:
+    image: ami-637cea11
+    state: present
+    instance_type: t2.medium
+    key_name: boath
+    group_id: "{{ sg_prod_jump['security_groups'][0]['group_id'] }}"
+    volumes:
+    - delete_on_termination: false
+      device_name: /dev/xvda
+      encrypted: true
+      iops: 100
+      volume_type: gp2
+    vpc_subnet_id: "{{ prod_subnet_3['subnets'][0]['id'] }}"
+    tags:
+      Name: prod_jump
+  i-0e41820a175796c42:
+    image: ami-8d958df6
+    state: present
+    instance_type: r4.16xlarge
+    key_name: boath
+    group_id: "{{ sg_prod_git['security_groups'][0]['group_id'] }}"
+    volumes:
+    - delete_on_termination: true
+      device_name: /dev/sda1
+      encrypted: true
+      iops: 600
+      volume_type: gp2
+    - delete_on_termination: false
+      device_name: /dev/sdf
+      encrypted: true
+      iops: 10000
+      volume_type: gp2
+    vpc_subnet_id: "{{ prod_subnet_1['subnets'][0]['id'] }}"
+    tags:
+      Name: prod_git

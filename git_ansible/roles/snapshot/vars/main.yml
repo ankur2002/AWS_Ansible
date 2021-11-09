@@ -1,0 +1,32 @@
+---
+snapshot_dict:
+  vol-046d081831b8aa2f1:
+    volume_id: "{{ vol_stage_jump['volumes'][0]['id'] }}"
+    device_name: /dev/xvda
+    tags: 
+      Name: stage-proxy
+  vol-09e532b8320a700e7:
+    volume_id: "{{ vol_prod_jump['volumes'][0]['id'] }}"
+    device_name: /dev/xvda
+    tags: 
+      Name: prod-proxy
+  vol-0ae8744e134e0f728:
+    volume_id: "{{ vol_prod_git_data['volumes'][0]['id'] }}"
+    device_name: /dev/sdf
+    tags:
+      Name: primary-git-vol
+  vol-0bdfc5bd8046d60d4:
+    volume_id: "{{ vol_prod_git_root['volumes'][0]['id'] }}"
+    device_name: /dev/xvda
+    tags: 
+      Name: primary-git-root
+  vol-0d5799a63b406429b:
+    volume_id: "{{ vol_stage_git_data['volumes'][0]['id'] }}"
+    device_name: /dev/sdb
+    tags: 
+      Name: stage-test-vol
+  vol-0f97bc1cc8f8e2f54:
+    volume_id: "{{ vol_stage_git_root['volumes'][0]['id'] }}"
+    device_name: /dev/xvda
+    tags: 
+      Name: stage-test-root

@@ -1,0 +1,50 @@
+---  
+     - name: Create Security Group
+       ec2_group:
+         name: "{{ item.value.name }}"
+         tags: "{{ item.value.tags }}"
+         state: present
+         region: "{{ region }}"
+         rules: "{{ item.value.rules }}"
+         rules_egress: "{{ item.value.rules_egress }}"
+         vpc_id: "{{ item.value.vpc_id }}"
+         description: "creating security group {{ item.value.name }}"
+       with_dict: "{{ sg_dict }}"
+       register: ec2_group
+
+     - name: Get Prod Git SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+            "tag:Name": 'prod-git'
+       register: sg_prod_git
+
+     - name: Get Prod Jump SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+            "tag:Name": 'prod-jump'
+       register: sg_prod_jump
+
+     - name: Get Stage Git SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+            "tag:Name": 'stage-git'
+       register: sg_stage_git
+
+     - name: Get Stage Jump SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_stage['vpcs'][0]['id'] }}"
+            "tag:Name": 'stage-jump'
+       register: sg_stage_jump
+
+     - name: SG Git Prod ID
+       debug:
+         var: sg_prod_git['security_groups'][0]['group_id'] 
+

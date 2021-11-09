@@ -1,0 +1,52 @@
+---
+      - name: Create EC2
+        ec2:
+          state: present
+          #ebs_optimized: true
+          region: "{{ region }}"
+          image: "{{ item.value.image }}"
+          vpc_subnet_id: "{{ item.value.vpc_subnet_id }}"
+          group_id: "{{ item.value.group_id }}"
+          volumes: "{{ item.value.volumes }}"
+          instance_type: "{{ item.value.instance_type }}"
+          key_name: "{{ item.value.key_name }}"
+          instance_tags: "{{ item.value.tags }}"
+        with_dict: "{{ ec2_dict }}"
+        register: ec2
+
+      - name: Get Production EC2 Git ID
+        ec2_instance_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'prod_git'
+        register: ec2_prod_git
+
+      - name: Get Staging Git ID
+        ec2_instance_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'stage_git'
+        register: ec2_stage_git
+
+      - name: Get Production Jump ID
+        ec2_instance_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'prod_jump'
+        register: ec2_prod_jump
+
+      - name: Get Staging Jump ID
+        ec2_instance_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'stage_jump'
+        register: ec2_stage_jump
+
+      - name: EC2 Prod Jump
+        debug:
+          var: ec2_prod_jump
+
+
+      - name: EC2 Stage Jump
+        debug:
+         var: ec2_stage_jump

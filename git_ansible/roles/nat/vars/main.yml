@@ -1,0 +1,14 @@
+---
+nat_dict:
+  nat-02986da7de61c3d07:
+    nat_gateway_id: nat-02986da7de61c3d07
+    subnet_id: "{{ prod_subnet_2['subnets'][0]['id'] }}"
+  nat-0441823ef3334789f:
+    nat_gateway_id: nat-0441823ef3334789f
+    subnet_id: "{{ stage_subnet_1['subnets'][0]['id'] }}"
+  nat-05ed403b2b763856a:
+    nat_gateway_id: nat-05ed403b2b763856a
+    subnet_id: "{{ stage_subnet_2['subnets'][0]['id'] }}" 
+  nat-0ee49900fbd44e2c4:
+    nat_gateway_id: nat-0ee49900fbd44e2c4
+    subnet_id: "{{ prod_subnet_1['subnets'][0]['id'] }}"

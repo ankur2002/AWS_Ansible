@@ -1,0 +1,35 @@
+---
+    - name: Create VPC
+      ec2_vpc_net:
+         name:  "{{ item.value.name }}"
+         state: present
+         region: "{{ region }}"
+         cidr_block: "{{ item.value.cidr_block }}"         
+         #dhcp_opts_id: "{{ item.value.dhcp_opts_id }}"
+         resource_tags: "{{ item.value.resource_tags }}"
+      with_dict: "{{ vpc_dict }}"
+      register: ec2_vpc_net
+
+    - name: Get Production VPC ID
+      ec2_vpc_net_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'Production'
+      register: vpc_prod
+
+    - name: Get Staging VPC ID
+      ec2_vpc_net_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'Stage'
+      register: vpc_stage
+
+    - name: VPC Prod ID
+      debug:
+        var: vpc_prod['vpcs'][0]['id']
+
+
+    - name: VPC Stage ID
+      debug:
+       var: vpc_stage['vpcs'][0]['id']
+
