@@ -1,0 +1,25 @@
+---
+      - name: Get Linux AMI ID
+        ec2_ami_facts:
+         region: "{{ region }}"
+         owners: 843532666793
+         filters:
+          "name": 'amzn-ami-hvm-2017.03.1.20170812-x86_64-gp2'
+        register: linux_ami
+
+      - name: Get Git AMI ID
+        ec2_ami_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'GHE-IP'
+        register: ghe_ami
+
+
+      - name: GHE AMI
+        debug:
+          var: ghe_ami
+
+
+      - name: Linux AMI
+        debug:
+         var: linux_ami

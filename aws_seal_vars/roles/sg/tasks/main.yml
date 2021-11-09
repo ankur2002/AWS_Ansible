@@ -1,0 +1,74 @@
+---  
+     - name: Create Security Group
+       ec2_group:
+         name: "{{ item.value.name }}"
+         tags: "{{ item.value.tags }}"
+         state: present
+         region: "{{ region }}"
+         rules: "{{ item.value.rules }}"
+         rules_egress: "{{ item.value.rules_egress }}"
+         vpc_id: "{{ item.value.vpc_id }}"
+         description: "creating security group {{ item.value.name }}"
+       with_dict: "{{ sg_dict }}"
+       register: ec2_group
+
+     - name: Get Prod LB SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+            "tag:Name": 'VM-seal-Prod-SG-LB'
+       register:  VM_seal_Prod_SG_LB
+
+     - name: Get Prod Bastion SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_bastion['vpcs'][0]['id'] }}"
+            "tag:Name": 'VM-sealbastion-infra-sg'
+       register: VM_sealbastion_infra_sg
+
+     - name: Get Prod SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+            "tag:Name": 'VM-seal-Prod'
+       register: VM_seal_Prod
+
+     - name: Get Prod Nginx SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+            "tag:Name": 'VM-seal-Nginx'
+       register: VM_seal_Nginx
+
+     - name: Get Prod SSH Proxy SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+            "tag:Name": 'VM-seal-Prod-SSH-Proxy'
+       register: VM_seal_Prod_SSH_Proxy
+
+     - name: Get Prod Splunk SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+            "tag:Name": 'Splunk'
+       register: Splunk
+     
+    - name: Get Prod EFS SG
+       ec2_group_facts:
+         region: "{{ region }}"
+         filters:
+            vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+            "tag:Name": 'EFS-SG'
+       register: EFS_SG
+
+     - name: SG Git Prod ID
+       debug:
+         var: Prod_SG_LB['security_groups'][0]['group_id'] 
+

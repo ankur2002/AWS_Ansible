@@ -1,0 +1,34 @@
+---
+    - name: Create ACL
+      debugger: on_failed
+      ec2_vpc_nacl:
+         state: present
+         name: "{{ item.value.tags.Name }}"
+         region: "{{ region }}"
+         subnets: "{{ item.value.subnets }}"
+         vpc_id: "{{ item.value.vpc_id }}"
+         ingress: "{{ item.value.ingress }}"
+         egress: "{{ item.value.egress }}"
+         tags: "{{ item.value.tags }}"
+      with_dict: "{{ acl_dict }}"
+      register: ec2_vpc_nacl
+    
+    - name: Get Prod Primary NACL ID
+      ec2_vpc_nacl_facts:
+       region: "{{ region }}"
+       filters:
+         "tag:Name": 'VM-seal-Prod'
+      register: prod
+
+    - name: Get Prod Proxy NACL ID
+      ec2_vpc_nacl_facts:
+       region: "{{ region }}"
+       filters:
+         "tag:Name": 'VM-sealbastion-infra-nacl'
+      register: bastion_infra_nacl
+
+
+    - name: Stage Test NACL ID
+      debug:
+       var: bastion_infra_nacl['nacls'][0]['nacl_id']
+

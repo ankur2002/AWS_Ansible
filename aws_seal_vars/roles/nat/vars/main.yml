@@ -1,0 +1,7 @@
+---
+nat_dict:
+  nat-0fe8bc8b5d74ecd0a:
+    nat_gateway_id: nat-0fe8bc8b5d74ecd0a
+    subnet_id: "{{ prod_Ext_West2A['subnets'][0]['id'] }}"
+    tags:
+      Name: Prod

@@ -1,0 +1,14 @@
+---
+ansible_python_interpreter: /home/y/bin/python
+#keypair: boath
+region: us-east-1
+public_ip: no
+AWS_ACCESS_KEY_ID: "{{lookup('env','aws_access_key_id')}}"
+AWS_SECRET_ACCESS_KEY: "{{lookup('env', 'aws_secret_access_key')}}"
+AWS_SESSION_TOKEN: "{{lookup('env', 'aws_session_token')}}"
+
+#aws_keypair: boath
+#iam_name: corp-apps.aws.git_ansible
+#iam_assume_role:  corp-apps.aws.git_ansible
+#policy_name: corp-apps.aws.git_ansible.policy
+

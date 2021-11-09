@@ -1,0 +1,24 @@
+---
+    - name: Create VPC NAT Gateway
+      ec2_vpc_nat_gateway:
+         subnet_id:  "{{ item.value.subnet_id }}"
+         state: present
+         region: "{{ region }}"
+         if_exist_do_not_create: True
+         validate_certs: no
+         nat_gateway_id: "{{ item.value.nat_gateway_id }}"
+      with_dict: "{{ nat_dict }}"
+      register: ec2_vpc_nat_gateway
+
+
+    - name: Get Prod nat 1  ID
+      ec2_vpc_nat_gateway_facts:
+       region: "{{ region }}"
+       filters:
+        subnet-id: "{{ prod_Ext_West2A['subnets'][0]['id'] }}"
+      register: Prod
+
+
+    - name: Nat Prod 1 ID
+      debug:
+        var: Prod['result'][0]['nat_gateway_id']

@@ -1,0 +1,68 @@
+---
+      - name: Create SnapshotVolume
+        ec2_snapshot:
+          state: present
+          region: "{{ region }}"
+          volume_id: "{{ item.value.volume_id }}"
+          snapshot_tags: "{{ item.value.tags }}" 
+          wait: yes
+        with_dict: "{{ snapshot_dict }}"
+        register: ec_snapshot
+
+      - name: Get Production Git Root Volume Snapshot ID
+        ec2_snapshot_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'primary-git-root'
+          "volume-id": "{{ vol_prod_git_root['volumes'][0]['id'] }}"
+        register: snap_prod_git_root
+
+      - name: Get Production Git Data Volume Snapshot ID
+        ec2_snapshot_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'primary-git-vol'
+          "volume-id": "{{ vol_prod_git_data['volumes'][0]['id'] }}"
+        register: snap_prod_git_data
+
+      - name: Get Staging Git Root Volume ID
+        ec2_snapshot_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'stage-test-root'
+          "volume-id": "{{ vol_stage_git_root['volumes'][0]['id'] }}"
+        register: snap_stage_git_root
+
+      - name: Get Staging Git Data Volume ID
+        ec2_snapshot_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'stage-test-vol'
+          "volume-id":  "{{ vol_stage_git_data['volumes'][0]['id'] }}"
+        register: snap_stage_git_data
+
+      - name: Get Production Jump Host Volume ID
+        ec2_snapshot_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'prod-proxy'
+          "volume-id": "{{ vol_prod_jump['volumes'][0]['id'] }}"
+        register: snap_prod_jump
+
+      - name: Get Stage Jump Host Volume ID
+        ec2_snapshot_facts:
+         region: "{{ region }}"
+         filters:
+          "tag:Name": 'stage-proxy'
+          "volume-id":  "{{ vol_stage_jump['volumes'][0]['id'] }}"
+        register: snap_stage_jump
+
+
+      - name: Snapshot Volume Prod Jump
+        debug:
+          var: snap_prod_jump
+
+
+      - name: SnapshotVolume Stage Jump
+        debug:
+         var: snap_stage_jump

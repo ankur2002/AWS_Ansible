@@ -1,0 +1,35 @@
+---
+    - name: Create VPC Internet Gateway
+      ec2_vpc_igw:
+         vpc_id:  "{{ item.value.vpc_id }}"
+         state: present
+         region: "{{ region }}"
+         tags: "{{ item.value.tags }}"
+      with_dict: "{{ igw_dict }}"
+      register: ec2_vpc_igw
+
+
+    - name: Get Prod Bastion IGW ID
+      ec2_vpc_igw_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'VM-sealbastion-infra-igw'
+      register: bastion_infra_igw
+
+    - name: Get Production IGW ID
+      ec2_vpc_igw_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'VM-seal-prod'
+      register: prod
+
+
+    - name: Prod Bastion IGW ID
+      debug:
+        var: bastion_infra_igw['internet_gateways'][0]['internet_gateway_id']
+
+
+    - name: IGW Prod ID
+      debug:
+       var: prod['internet_gateways'][0]['internet_gateway_id']
+

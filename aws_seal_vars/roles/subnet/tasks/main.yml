@@ -1,0 +1,106 @@
+---
+    - name: Create new subnet
+      ec2_vpc_subnet:
+         region: "{{ region }}"
+         az: "{{ item.value.az }}"  
+         cidr: "{{ item.value.cidr }}"
+         vpc_id: "{{ item.value.vpc_id }}"
+         resource_tags: "{{ item.value.resource_tags }}"
+         map_public: "{{ item.value.map_public }}"
+         state: present
+      with_dict: "{{ subnet_dict }}"
+      register: ec2_vpc_subnet
+
+
+    - name: Show subnet var
+      debug:
+        var: ec2_vpc_subnet
+
+    - name: Save prod subnet 1 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_bastion['vpcs'][0]['id'] }}"   
+           "tag:Name": "VM-sealbast-infra-pubSubnet1"
+      register: bast_infra_pubSubnet1
+
+    - name: Save prod subnet 2 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_bastion['vpcs'][0]['id'] }}"
+           "tag:Name": "VM-sealbast-infra-pubSubnet2"
+      register: bast_infra_pubSubnet2
+
+    - name: Save prod subnet 3 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+           "tag:Name": "VM-seal-prod-Int-West2A"
+      register: prod_Int_West2A 
+   
+    - name: Save prod subnet 4 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+           "tag:Name": "VM-seal-prod-Ext-West2A"
+      register: prod_Ext_West2A
+
+    - name: Save stage subnet 5 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+           "tag:Name": "VM-seal-prod-Int-West2B"
+      register: prod_Int_West2B
+ 
+    - name: Save stage subnet 6 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+           "tag:Name": "VM-seal-prod-Ext-West2B"
+      register: prod_Ext_West2B
+
+    - name: Save stage subnet 7 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+           "tag:Name": "bastion-infra-publicSubnet2"
+      register: bast-infra-publicSubnet2
+
+    - name: Save stage subnet 8 facts
+      ec2_vpc_subnet_facts:
+        region: "{{ region }}"
+        filters:
+           vpc-id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+           "tag:Name": "bastion-infra-publicSubnet1"
+      register: bast-infra-publicSubnet1
+
+
+    - name: show value prod subnet 1 
+      debug:
+       var: bast_infra_pubSubnet1['subnets'][0]['id']
+
+    - name: show value prod subnet 2
+      debug:
+       var: bast_infra_pubSubnet2['subnets'][0]['id']
+    
+    - name: show value prod subnet 3
+      debug:
+       var: prod_Int_West2A['subnets'][0]['id']
+
+    - name: show value prod subnet 4
+      debug:
+       var: prod_Ext_West2A['subnets'][0]['id']
+
+    - name: show value prod subnet 5
+      debug:
+       var: prod_Int_West2B['subnets'][0]['id']
+
+    - name: show value prod subnet 6
+      debug:
+       var: prod_Ext_West2B['subnets'][0]['id']

@@ -1,0 +1,44 @@
+---
+    - name: Create VPC
+      ec2_vpc_net:
+         name:  "{{ item.value.name }}"
+         state: present
+         region: "{{ region }}"
+         cidr_block: "{{ item.value.cidr_block }}"         
+         #dhcp_opts_id: "{{ item.value.dhcp_opts_id }}"
+         resource_tags: "{{ item.value.resource_tags }}"
+      with_dict: "{{ vpc_dict }}"
+      register: ec2_vpc_net
+
+    - name: Get Production VPC ID
+      ec2_vpc_net_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'VM-seal-prod'
+      register: vpc_prod
+    
+    - name: Get Bastion VPC ID
+      ec2_vpc_net_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'VM-sealbastion-infra-vpc'
+      register: vpc_bastion
+
+    - name: Get Bastion VPC ID
+      ec2_vpc_net_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'bastion-infra-vpc'
+      register: vpc_bastion_infra
+   
+
+    - name: VPC Prod ID
+      debug:
+        var: vpc_prod['vpcs'][0]['id']
+
+    - name: VPC Bastion ID
+      debug:
+        var: vpc_bastion['vpcs'][0]['id']
+
+
+

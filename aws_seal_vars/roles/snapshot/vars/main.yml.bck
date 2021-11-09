@@ -1,0 +1,62 @@
+---
+volume_dict:
+  vol-046d081831b8aa2f1:
+    delete_on_termination: false
+    device_name: /dev/sda1
+    encrypted: true
+    iops: 100
+    tags:
+      Name: stage-proxy
+    volume_size: 8
+    volume_type: gp2
+    zone: us-east-1a
+  vol-09e532b8320a700e7:
+    delete_on_termination: false
+    device_name: /dev/sda1
+    encrypted: true
+    iops: 100
+    tags:
+      Name: prod-proxy
+    volume_size: 8
+    volume_type: gp2
+    zone: us-east-1a
+  vol-0ae8744e134e0f728:
+    delete_on_termination: false
+    device_name: /dev/sdf
+    encrypted: true
+    iops: 10000
+    tags:
+      Name: primary-git-vol
+    volume_size: 4000
+    volume_type: gp2
+    zone: us-east-1a
+  vol-0bdfc5bd8046d60d4:
+    delete_on_termination: false
+    device_name: /dev/sda1
+    encrypted: true
+    iops: 600
+    tags:
+      Name: primary-git-root
+    volume_size: 200
+    volume_type: gp2
+    zone: us-east-1a
+  vol-0d5799a63b406429b:
+    delete_on_termination: false
+    device_name: /dev/sdb
+    encrypted: true
+    iops: 10000
+    tags:
+      Name: stage-test-vol
+    volume_size: 4000
+    volume_type: gp2
+    zone: us-east-1c
+  vol-0f97bc1cc8f8e2f54:
+    delete_on_termination: false
+    device_name: /dev/sda1
+    encrypted: true
+    iops: 600
+    tags:
+      Name: stage-test-root
+    volume_size: 200
+    volume_type: gp2
+    zone: us-east-1c

@@ -1,0 +1,10 @@
+---
+vpcs:
+  Prod:
+    cidr_block: 10.0.0.0/20
+    name: Prod
+    tag: prod
+  Stage:
+    cidr_block: 10.0.0.16/20
+    name: Stage 
+    tag: stage

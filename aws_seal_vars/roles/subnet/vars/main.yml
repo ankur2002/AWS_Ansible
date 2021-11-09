@@ -1,0 +1,80 @@
+---
+subnet_dict:
+  subnet-03523a3254a66872d:
+    az: us-east-1b
+    cidr: 10.1.0.96/27
+    map_public: false
+    resource_tags:
+      Name: VM-seal-prod-Ext-West2B
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  subnet-04401e3fbb574e734:
+    az: us-east-1b
+    cidr: 192.168.0.32/27
+    map_public: false
+    resource_tags:
+      Application: bastion
+      Environment: infra
+      Name: bastion-infra-publicSubnet2
+      Owner: yourteam@oath.com
+      Stack: bastion
+      aws:cloudformation:logical-id: PublicSubnet2
+      aws:cloudformation:stack-id: arn:aws:cloudformation:us-east-1:808213275133:stack/bastion-infra/11f62270-0a56-11ea-bcc7-12b94cd95a93
+      aws:cloudformation:stack-name: bastion-infra
+    vpc_id: "{{ vpc_bastion_infra['vpcs'][0]['id'] }}"
+  subnet-05f5350b875e12f9f:
+    az: us-east-1a
+    cidr: 192.168.0.0/27
+    map_public: false
+    resource_tags:
+      Application: bastion
+      Environment: infra
+      Name: VM-sealbast-infra-pubSubnet2
+      Owner: yourteam@oath.com
+      Stack: bastion
+    vpc_id: "{{ vpc_bastion['vpcs'][0]['id'] }}"
+  subnet-0764145a07b9c2d66:
+    az: us-east-1a
+    cidr: 192.168.0.0/27
+    map_public: false
+    resource_tags:
+      Application: bastion
+      Environment: infra
+      Name: bastion-infra-publicSubnet1
+      Owner: yourteam@oath.com
+      Stack: bastion
+      aws:cloudformation:logical-id: PublicSubnet1
+      aws:cloudformation:stack-id: arn:aws:cloudformation:us-east-1:808213275133:stack/bastion-infra/11f62270-0a56-11ea-bcc7-12b94cd95a93
+      aws:cloudformation:stack-name: bastion-infra
+    vpc_id: "{{ vpc_bastion_infra['vpcs'][0]['id'] }}"
+  subnet-07693826a3deb36c4:
+    az: us-east-1a
+    cidr: 10.1.0.128/27
+    map_public: false
+    resource_tags:
+      Name: VM-seal-prod-Ext-West2A
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  subnet-08061358ae761f8b9:
+    az: us-east-1b
+    cidr: 10.1.0.64/27
+    map_public: false
+    resource_tags:
+      Name: VM-seal-prod-Int-West2B
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  subnet-08a0ce7ecff4bc99b:
+    az: us-east-1a
+    cidr: 10.1.0.32/27
+    map_public: false
+    resource_tags:
+      Name: VM-seal-prod-Int-West2A
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+  subnet-099f37b13b2733fb9:
+    az: us-east-1b
+    cidr: 192.168.0.32/27
+    map_public: false
+    resource_tags:
+      Application: bastion
+      Environment: infra
+      Name: VM-sealbast-infra-pubSubnet1
+      Owner: yourteam@oath.com
+      Stack: bastion
+    vpc_id: "{{ vpc_bastion['vpcs'][0]['id'] }}"

@@ -1,0 +1,38 @@
+---
+    - name: Create Route table
+      ec2_vpc_route_table:
+        region: "{{ region }}"
+        subnets:
+          - "{{ item.value.subnets }}"
+        vpc_id: "{{ item.value.vpc_id }}"
+        tags: "{{ item.value.tags }}"
+        routes:
+          - "{{ item.value.routes }}"
+      with_dict: "{{ route_dict }}"
+      register: ec2_vpc_route_table
+
+    - name: Get Production Route Table 1 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'VM-sealbastion-infra-rt'
+      register: bastion_infra_rt
+
+    - name: Get Production Route Table 2 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'VM-seal-Prod-Internal'
+      register: Prod_Internal
+
+    - name: Get Production Route Table 3 ID
+      ec2_vpc_route_table_facts:
+       region: "{{ region }}"
+       filters:
+        "tag:Name": 'VM-seal-Prod-External'
+      register: Prod_External
+
+
+    - name: Show prod rtb 1
+      debug:
+       var: bastion_infra_rt['route_tables'][0]['id']

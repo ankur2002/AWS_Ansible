@@ -1,0 +1,19 @@
+---
+ - name: testing aws 
+
+   hosts: localhost 
+   connection: local
+ 
+
+   tags: test
+
+   roles:
+    - vpc
+    - subnet
+    - igw
+    - nat
+    - route
+    - sg
+    - acl
+     
+    

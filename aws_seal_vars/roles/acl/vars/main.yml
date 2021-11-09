@@ -1,0 +1,356 @@
+---
+acl_dict:
+  acl-09790090c2ab92d5a:
+    egress:
+    - - 100
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 0
+      - 65535
+    ingress:
+    - - 100
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 2222
+      - 2222
+    - - 200
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 32768
+      - 60999
+    - - 300
+      - tcp
+      - allow
+      - 98.137.35.55/32
+      - null
+      - null
+      - 22
+      - 22
+    nacl_id: acl-09790090c2ab92d5a
+    subnets:
+    - "{{ bast_infra_pubSubnet1['subnets'][0]['id'] }}"
+    - "{{ bast_infra_pubSubnet2['subnets'][0]['id'] }}"
+    tags:
+      Application: bastion
+      Environment: infra
+      Name: VM-sealbastion-infra-nacl
+      Owner: yourteam@oath.com
+      Stack: bastion
+    vpc_id: "{{ vpc_bastion['vpcs'][0]['id'] }}"
+  acl-c3f049ba:
+    egress:
+    - - 100
+      - all
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - null
+      - null
+    ingress:
+    - - 101
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 22
+      - 22
+    - - 103
+      - all
+      - allow
+      - 10.1.0.0/27
+      - null
+      - null
+      - null
+      - null
+    - - 104
+      - all
+      - allow
+      - 10.1.0.32/27
+      - null
+      - null
+      - null
+      - null
+    - - 105
+      - all
+      - allow
+      - 10.1.0.64/27
+      - null
+      - null
+      - null
+      - null
+    - - 106
+      - all
+      - allow
+      - 10.1.0.96/27
+      - null
+      - null
+      - null
+      - null
+    - - 107
+      - all
+      - allow
+      - 10.1.0.128/27
+      - null
+      - null
+      - null
+      - null
+    - - 108
+      - tcp
+      - allow
+      - 10.1.0.0/27
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 109
+      - tcp
+      - allow
+      - 10.1.0.32/27
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 110
+      - tcp
+      - allow
+      - 10.1.0.64/27
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 111
+      - tcp
+      - allow
+      - 10.1.0.96/27
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 112
+      - tcp
+      - allow
+      - 10.1.0.128/27
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 113
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 443
+      - 443
+    - - 114
+      - tcp
+      - allow
+      - 10.1.1.0/26
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 115
+      - tcp
+      - allow
+      - 10.1.1.64/26
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 116
+      - tcp
+      - allow
+      - 192.168.0.0/26
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 118
+      - all
+      - allow
+      - 10.1.1.0/26
+      - null
+      - null
+      - null
+      - null
+    - - 119
+      - all
+      - allow
+      - 10.1.1.64/26
+      - null
+      - null
+      - null
+      - null
+    - - 120
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 8089
+      - 8089
+    - - 121
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 25
+      - 25
+    - - 122
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 80
+      - 80
+    - - 123
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 81
+      - 81
+    - - 124
+      - tcp
+      - allow
+      - ::/0
+      - null
+      - null
+      - 443
+      - 443
+    - - 125
+      - tcp
+      - allow
+      - ::/0
+      - null
+      - null
+      - 80
+      - 80
+    - - 126
+      - tcp
+      - allow
+      - ::/0
+      - null
+      - null
+      - 25
+      - 25
+    - - 127
+      - tcp
+      - allow
+      - ::/0
+      - null
+      - null
+      - 8089
+      - 8089
+    - - 128
+      - tcp
+      - allow
+      - ::/0
+      - null
+      - null
+      - 81
+      - 81
+    - - 129
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 8443
+      - 8443
+    - - 130
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 443
+      - 443
+    - - 131
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 8080
+      - 8080
+    - - 132
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 8080
+      - 8080
+    - - 133
+      - tcp
+      - allow
+      - ::/0
+      - null
+      - null
+      - 8080
+      - 8080
+    - - 134
+      - all
+      - allow
+      - 10.1.0.158/32
+      - null
+      - null
+      - null
+      - null
+    - - 135
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 443
+      - 443
+    - - 136
+      - tcp
+      - allow
+      - ::/0
+      - null
+      - null
+      - 443
+      - 443
+    - - 144
+      - tcp
+      - allow
+      - 0.0.0.0/0
+      - null
+      - null
+      - 1024
+      - 65535
+    - - 145
+      - tcp
+      - allow
+      - 98.136.203.244/32
+      - null
+      - null
+      - 5432
+      - 5432
+    nacl_id: acl-c3f049ba
+    subnets:
+    - "{{ prod_Int_West2A['subnets'][0]['id'] }}"
+    -  "{{ prod_Ext_West2B['subnets'][0]['id'] }}"
+    - "{{ prod_Ext_West2A['subnets'][0]['id'] }}"
+    - "{{ prod_Int_West2B['subnets'][0]['id'] }}"
+    tags:
+      Name: VM-seal-Prod
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"

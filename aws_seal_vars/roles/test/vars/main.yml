@@ -1,0 +1,10 @@
+---
+keypair: boath
+instance_type: t2.small
+security_group: GHE_NLB_SG
+image: ami-6fdee10f
+region: us-west-1
+public_ip: no
+subnet: subnet-d2ea49b5
+aws_access_key: AKIAJBVLVH4RABZUAO4A 
+aws_secret_key: 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

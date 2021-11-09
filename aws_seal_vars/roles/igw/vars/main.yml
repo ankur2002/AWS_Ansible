@@ -1,0 +1,14 @@
+---
+igw_dict:
+  igw-024a701404600f376:
+    tags:
+      Application: bastion
+      Environment: infra
+      Name: VM-sealbastion-infra-igw
+      Owner: yourteam@oath.com
+      Stack: bastion
+    vpc_id:  "{{ vpc_bastion['vpcs'][0]['id'] }}"
+  igw-11e9f476:
+    tags:
+      Name: VM-seal-prod
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"

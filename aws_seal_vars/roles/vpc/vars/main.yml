@@ -1,0 +1,34 @@
+---
+vpc_dict:
+  vpc-03bff93981cb60961:
+    cidr_block: 192.168.0.0/26
+    dhcp_opts_id: dopt-d8e05cbf
+    name: VM-sealbastion-infra-vpc
+    resource_tags:
+      Application: bastion
+      Environment: infra
+      Name: VM-sealbastion-infra-vpc
+      Owner: yourteam@oath.com
+      Stack: bastion
+    vpc_id: vpc-03bff93981cb60961
+  vpc-11776077:
+    cidr_block: 10.1.0.0/23
+    dhcp_opts_id: dopt-d8e05cbf
+    name: VM-seal-prod
+    resource_tags:
+      Name: VM-seal-prod
+    vpc_id: vpc-11776077
+  vpc-0ab3a5ad7b6e8dc70:
+    cidr_block: 192.168.0.0/26
+    dhcp_opts_id: dopt-692bc113
+    name: bastion-infra-vpc
+    resource_tags:
+      Application: bastion
+      Environment: infra
+      Name: bastion-infra-vpc
+      Owner: yourteam@oath.com
+      Stack: bastion
+      aws:cloudformation:logical-id: BastionVPC
+      aws:cloudformation:stack-id: arn:aws:cloudformation:us-east-1:808213275133:stack/bastion-infra/11f62270-0a56-11ea-bcc7-12b94cd95a93
+      aws:cloudformation:stack-name: bastion-infra
+    vpc_id: vpc-0ab3a5ad7b6e8dc70

@@ -1,0 +1,48 @@
+---
+route_dict:
+  rtb-001413f33fce529a7:
+    vpc_id: "{{ vpc_bastion['vpcs'][0]['id'] }}"
+    routes:
+    #- dest: 192.168.0.0/26
+    #  instance_id: local
+    #- dest: 10.1.0.0/23
+    #  instance_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ bastion_infra_igw['internet_gateways'][0]['internet_gateway_id'] }}"
+    subnets:
+    - "{{ bast_infra_pubSubnet1['subnets'][0]['id'] }}"
+    - "{{ bast_infra_pubSubnet2['subnets'][0]['id'] }}"
+    tags:
+      Application: bastion
+      Environment: infra
+      Name: VM-sealbastion-infra-rt
+      Owner: yourteam@oath.com
+      Stack: bastion
+  rtb-87a4f5fe:
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}" 
+    routes:
+    #- dest: 192.168.0.0/26
+    #  instance_id: local
+    #- dest: 10.1.0.0/23
+    #  instance_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ Prod['result'][0]['nat_gateway_id'] }}"
+    subnets:
+    - "{{ prod_Int_West2B['subnets'][0]['id'] }}"
+    - "{{ prod_Int_West2A['subnets'][0]['id'] }}"
+    tags:
+      Name: VM-seal-Prod-Internal
+  rtb-fba5f482:
+    vpc_id: "{{ vpc_prod['vpcs'][0]['id'] }}"
+    routes:
+    #- dest: 192.168.0.0/26
+    #  instance_id: local
+    #- dest: 10.1.0.0/23
+    #  instance_id: local
+    - dest: 0.0.0.0/0
+      gateway_id: "{{ prod['internet_gateways'][0]['internet_gateway_id'] }}"
+    subnets:
+    - "{{ prod_Ext_West2B['subnets'][0]['id'] }}"
+    - "{{ prod_Ext_West2A['subnets'][0]['id'] }}"
+    tags:
+      Name: VM-seal-Prod-External
